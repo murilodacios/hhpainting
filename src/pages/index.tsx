@@ -71,7 +71,7 @@ export default function Home() {
       <Stack bg="#eee">
         <HStack maxW={1280} w="100%" margin="0 auto" py="8" justify="space-between">
           <Text fontSize="lg" fontWeight={600} color="black">
-            We aren't just a painting company,<br></br>
+            We are not just a painting company,<br></br>
             we turn your dream into reality.
           </Text>
 
@@ -86,7 +86,7 @@ export default function Home() {
 
 
       <Stack maxW={1280} w="100%" margin="0 auto" py="8">
-        <Text fontSize="4xl" fontWeight={400} lineHeight="1.2">Our service ecosystem <br></br>transforms our clients' dreams</Text>
+        <Text fontSize="4xl" fontWeight={400} lineHeight="1.2">Our service ecosystem <br></br>transforms our clients dreams</Text>
         <Text fontWeight={300} fontSize="lg">
           Choose a Service Below and See
           What We Can Do for You
@@ -107,7 +107,7 @@ export default function Home() {
 
                 <Text fontSize="lg" fontWeight={300}>
                   At HH Painting, we specialize in providing top-notch residential painting services that breathe new life into your home. Our skilled team of painters is dedicated to transforming your living spaces with precision and attention to detail.
-                  Whether you're looking to refresh the interior of your home, update the exterior, or create a whole new color scheme, we have the expertise to bring your vision to reality.
+                  Whether you are looking to refresh the interior of your home, update the exterior, or create a whole new color scheme, we have the expertise to bring your vision to reality.
                 </Text>
 
                 <SimpleGrid columns={3} gap="4">
@@ -199,7 +199,7 @@ export default function Home() {
 
               <Text color="gray.600">● <Text as="strong" color="gray.700">Punctuality:</Text> We strictly adhere to agreed-upon deadlines, ensuring that your project is completed within the established timeframe.</Text>
 
-              <Text color="gray.600">● <Text as="strong" color="gray.700">Transparent Communication:</Text> We maintain clear and open communication with our clients, keeping them informed about the project's progress and promptly addressing any questions or concerns.</Text>
+              <Text color="gray.600">● <Text as="strong" color="gray.700">Transparent Communication:</Text> We maintain clear and open communication with our clients, keeping them informed about the projects progress and promptly addressing any questions or concerns.</Text>
 
               <Text color="gray.600">● <Text as="strong" color="gray.700">Customer Satisfaction:</Text> Our top priority is the satisfaction of our clients. We work tirelessly to exceed their expectations and ensure they are fully satisfied with the final results.</Text>
 
@@ -255,7 +255,7 @@ export default function Home() {
 
       <Stack bg="#0573E4" color="white" borderRadius="50px 50px 0 0">
         <Stack maxW={1280} w="100%" margin="0 auto" py="12" align="center">
-          <Text fontSize="4xl">That's what sets us apart.</Text>
+          <Text fontSize="4xl">That is what sets us apart.</Text>
           <Text fontSize="2xl">
             Our ability to deliver and exceed your expectations is what makes us so different.
           </Text>
