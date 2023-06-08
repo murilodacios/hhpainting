@@ -1,6 +1,6 @@
-import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input } from "@chakra-ui/react";
+import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, Tag } from "@chakra-ui/react";
 import Link from "next/link";
-import { RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiUser2Line, RiUserLine } from "react-icons/ri";
+import { RiAwardFill, RiAwardLine, RiFacebookFill, RiHeart2Fill, RiHeart2Line, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiPhoneLine, RiServiceFill, RiServiceLine, RiTimeFill, RiTimeLine, RiUser2Line, RiUser5Fill, RiUser5Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
 
 
@@ -8,47 +8,147 @@ export function About() {
 
     return (
         <>
-            <Stack bg="gray.50" id="about" p="4">
-                <HStack maxW={1280} w="100%" margin="0 auto" justify="space-between">
-                    <Grid templateColumns={{ base: "1fr", md: "1.1fr 1fr" }}>
-                        <Stack pt="12" mt="6" spacing="6">
-                            <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="gray.500">A helping hand to make<br></br> your dreams come true.</Text>
-                            <Text fontWeight={300} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4">
-                                Transforming spaces, inspiring emotions. Experience the artistry of our painting services and elevate your surroundings.
-                            </Text>
-                            <Stack maxWidth="100%">
-                                <Image pt="8" src="house.png" width="100%" />
-                            </Stack>
+            <Stack bg="#F5F8FD" id="about" p="4">
+                <Stack maxW={1280} w="100%" margin="0 auto" justify="space-between">
+
+                    <Stack pt="12" mt="6" spacing="2" align="center">
+                        <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4">Why choose us</Text>
+                        <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
+                            Everyone wins with HH Painting.
+                        </Text>
+                        <Text fontSize="xl" fontWeight={400} color="gray.600" textAlign="center">With HH Painting, you can rely on a professional and dedicated team that provides exceptional painting services,<br></br> adding value and transforming your spaces.</Text>
+                    </Stack>
+
+                    <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} py="8" gap="6">
+
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiUser5Line} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Proven Expertise</Text>
+                            <Text>With years of experience in the industry, our team has the knowledge and skill necessary to deliver high-quality results.</Text>
                         </Stack>
 
-                        <Stack spacing="8" p="6" justify="center">
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiServiceLine} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Personalized Service </Text>
+                            <Text>We value each client and strive to understand their specific needs, offering customized and tailored service that meets their expectations.</Text>
+                        </Stack>
 
-                            <Text fontSize="xl" fontWeight={400} color="gray.600">With HH Painting, you can rely on a professional and dedicated team that provides exceptional painting services, adding value and transforming your spaces.</Text>
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiAwardLine} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Superior Quality </Text>
+                            <Text>We only use high-quality materials and advanced painting techniques to ensure exceptional and long-lasting results.</Text>
+                        </Stack>
+
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiTimeLine} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Punctuality </Text>
+                            <Text>We strictly adhere to agreed-upon deadlines, ensuring that your project is completed within the established timeframe.</Text>
+                        </Stack>
+
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiPhoneLine} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Transparent Communication </Text>
+                            <Text>We maintain clear and open communication with our clients, keeping them informed about the projects progress and promptly addressing any questions or concerns.</Text>
+                        </Stack>
+
+                        <Stack bg="white" p="8" _hover={{ py: "12", border: "1px solid #CCE5FF", borderRadius: "5px" }} transition="0.6s all">
+                            <Icon color="#0573E4" as={RiHeart2Line} borderRadius="50" border="1px solid #eee" fontSize="40px" p="2" />
+                            <Text color="gray.900" fontWeight={500}>Customer Satisfaction</Text>
+                            <Text>Our top priority is the satisfaction of our clients. We work tirelessly to exceed their expectations and ensure they are fully satisfied with the final results.</Text>
+                        </Stack>
+                    </Grid>
+                </Stack>
+            </Stack>
 
 
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Proven Expertise:</Text> With years of experience in the industry, our team has the knowledge and skill necessary to deliver high-quality results.</Text>
+            <Stack bg="#F5F8FD" p="4">
+                <Stack maxW={1280} w="100%" margin="0 auto" justify="space-between">
 
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Personalized Service:</Text> We value each client and strive to understand their specific needs, offering customized and tailored service that meets their expectations.</Text>
+                    <Stack pt="12" mt="6" spacing="2">
+                        <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4">Let us help you</Text>
+                        <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4">
+                            What is your goal today?
+                        </Text>
+                    </Stack>
 
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Superior Quality:</Text> We only use high-quality materials and advanced painting techniques to ensure exceptional and long-lasting results.</Text>
+                    <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr 1fr" }} py="8" gap="6">
 
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Punctuality:</Text> We strictly adhere to agreed-upon deadlines, ensuring that your project is completed within the established timeframe.</Text>
-
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Transparent Communication:</Text> We maintain clear and open communication with our clients, keeping them informed about the projects progress and promptly addressing any questions or concerns.</Text>
-
-                            <Text color="gray.600">● <Text as="strong" color="gray.700">Customer Satisfaction:</Text> Our top priority is the satisfaction of our clients. We work tirelessly to exceed their expectations and ensure they are fully satisfied with the final results.</Text>
-
-                            <Box maxW="100%">
-                                <Button variant="solid" bg="#0573E4" color="white" size="md" borderRadius="4" w="100%">
-                                    <Text px="2">Get a free estimate</Text>
-                                </Button>
+                        <Stack justify="space-between" h="100%" >
+                            <Stack bg="white" p="8" justify="space-between" h="100%">
+                                <Stack>
+                                    <Text color="gray.900" fontWeight={500}>Minor repairs</Text>
+                                    <Text>With years of experience in the industry, our team has the knowledge and skill necessary to deliver high-quality results.</Text>
+                                </Stack>
+                                <Link href="tel:+13522786979">
+                                    <HStack color="#0573E4" cursor="pointer">
+                                        <Icon as={RiPhoneFill} />
+                                        <Text>Get free estimate</Text>
+                                    </HStack>
+                                </Link>
+                            </Stack>
+                            <Box bg="#0573E4" h="20px">
                             </Box>
+                        </Stack>
 
+                        <Stack justify="space-between" h="100%">
+                            <Stack bg="white" p="8" justify="space-between" h="100%">
+                                <Stack>
+                                    <Text color="gray.900" fontWeight={500}>Furniture renovation</Text>
+                                    <Text>We value each client and strive to understand their specific needs, offering customized and tailored service that meets their expectations.</Text>
+                                </Stack>
+                                <Link href="tel:+13522786979">
+                                    <HStack color="#0573E4" cursor="pointer">
+                                        <Icon as={RiPhoneFill} />
+                                        <Text>Get free estimate</Text>
+                                    </HStack>
+                                </Link>
+                            </Stack>
+                            <Box bg="#0573E4" h="20px">
+                            </Box>
+                        </Stack>
 
+                        <Stack justify="space-between">
+                            <Stack bg="white" p="8" justify="space-between">
+                                <Stack>
+                                    <Box pb="2">
+                                        <Tag colorScheme="red">Hot</Tag>
+                                    </Box>
+                                    <Text color="gray.900" fontWeight={500}>Exterior Painting</Text>
+                                    <Text>We only use high-quality materials and advanced painting techniques to ensure exceptional and long-lasting results.</Text>
+                                </Stack>
+                                <Link href="tel:+13522786979">
+                                    <HStack color="#0573E4" cursor="pointer">
+                                        <Icon as={RiPhoneFill} />
+                                        <Text>Get free estimate</Text>
+                                    </HStack>
+                                </Link>
+                            </Stack>
+                            <Box bg="#0573E4" h="20px">
+                            </Box>
+                        </Stack>
+
+                        <Stack justify="space-between">
+                            <Stack bg="white" p="8" justify="space-between">
+                                <Stack>
+                                    <Box pb="2">
+                                        <Tag colorScheme="blue">Popular</Tag>
+                                    </Box>
+                                    <Text color="gray.900" fontWeight={500}>Interior Painting</Text>
+                                    <Text>We strictly adhere to agreed-upon deadlines, ensuring that your project is completed within the established timeframe.</Text>
+                                </Stack>
+                                <Link href="tel:+13522786979">
+                                    <HStack color="#0573E4" cursor="pointer">
+                                        <Icon as={RiPhoneFill} />
+                                        <Text>Get free estimate</Text>
+                                    </HStack>
+                                </Link>
+                            </Stack>
+                            <Box bg="#0573E4" h="20px">
+                            </Box>
                         </Stack>
 
                     </Grid>
-                </HStack>
+                </Stack>
             </Stack>
 
         </>
