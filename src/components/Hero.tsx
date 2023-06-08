@@ -56,7 +56,7 @@ export function Hero() {
 
             <Grid maxW={1280} w="100%" margin="0 auto" my="12" p="4" templateColumns={{ base: "1fr", md: "1fr 1.5fr" }} gap="12">
                 <Text fontSize="2xl" fontWeight={600} color="#454545">
-                    We transform your home to make it truly yours and more vibrant. Just the way you've always dreamed.
+                    We transform your home to make it truly yours and more vibrant. Just the way you have always dreamed.
                 </Text>
 
                 <Stack spacing="2" color="#454545">
@@ -64,7 +64,7 @@ export function Hero() {
                         VISUALIZE YOURSELF
                     </Text>
                     <Text>Your renovated home, your family in a new, clean, and cozy abode. This is the life you deserve. We provide free estimates for you.</Text>
-                    <Text fontWeight={500}>And you know what's best? You don't even need to leave your house! Just make a phone call.</Text>
+                    <Text fontWeight={500}>And you know what is best? You do not even need to leave your house! Just make a phone call.</Text>
                     <Link href="tel:+13522786979">
                         <HStack color="#0573E4" cursor="pointer">
                             <Icon as={RiPhoneFill} />

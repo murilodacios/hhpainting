@@ -37,7 +37,7 @@ export function Reviews() {
                             <Stack bg="white" p="4">
                                 <Icon as={RiChatQuoteFill} />
                                 <Text>
-                                    I couldn't be happier with the exceptional service provided by HH Painting. They transformed my outdated kitchen cabinets into a modern masterpiece. Thank you for a job well done!
+                                    I could not be happier with the exceptional service provided by HH Painting. They transformed my outdated kitchen cabinets into a modern masterpiece. Thank you for a job well done!
                                 </Text>
                                 <Text fontWeight="medium" color="#454545">Joseph T.</Text>
                             </Stack>
