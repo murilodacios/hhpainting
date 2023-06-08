@@ -8,7 +8,7 @@ export function Reviews() {
     return (
         <>
 
-            <Stack bg="#F5F8FD" id="about" p="4" id="reviews">
+            <Stack bg="#F5F8FD" p="4" id="reviews">
                 <Stack maxW={1280} w="100%" margin="0 auto" justify="space-between">
 
                     <Stack pt="12" mt="6" spacing="2">
