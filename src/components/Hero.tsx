@@ -65,7 +65,7 @@ export function Hero() {
                     </Text>
                     <Text>Your renovated home, your family in a new, clean, and cozy abode. This is the life you deserve. We provide free estimates for you.</Text>
                     <Text fontWeight={500}>And you know what is best? You do not even need to leave your house! Just make a phone call.</Text>
-                    <Link href="tel:+13522786979">
+                    <Link href="tel:+13523542939">
                         <HStack color="#0573E4" cursor="pointer">
                             <Icon as={RiPhoneFill} />
                             <Text>Tell us now</Text>

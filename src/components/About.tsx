@@ -79,7 +79,7 @@ export function About() {
                                     <Text color="gray.900" fontWeight={500}>Minor repairs</Text>
                                     <Text>With years of experience in the industry, our team has the knowledge and skill necessary to deliver high-quality results.</Text>
                                 </Stack>
-                                <Link href="tel:+13522786979">
+                                <Link href="tel:+13523542939">
                                     <HStack color="#0573E4" cursor="pointer">
                                         <Icon as={RiPhoneFill} />
                                         <Text>Get free estimate</Text>
@@ -96,7 +96,7 @@ export function About() {
                                     <Text color="gray.900" fontWeight={500}>Furniture renovation</Text>
                                     <Text>We value each client and strive to understand their specific needs, offering customized and tailored service that meets their expectations.</Text>
                                 </Stack>
-                                <Link href="tel:+13522786979">
+                                <Link href="tel:+13523542939">
                                     <HStack color="#0573E4" cursor="pointer">
                                         <Icon as={RiPhoneFill} />
                                         <Text>Get free estimate</Text>
@@ -116,7 +116,7 @@ export function About() {
                                     <Text color="gray.900" fontWeight={500}>Exterior Painting</Text>
                                     <Text>We only use high-quality materials and advanced painting techniques to ensure exceptional and long-lasting results.</Text>
                                 </Stack>
-                                <Link href="tel:+13522786979">
+                                <Link href="tel:+13523542939">
                                     <HStack color="#0573E4" cursor="pointer">
                                         <Icon as={RiPhoneFill} />
                                         <Text>Get free estimate</Text>
@@ -136,7 +136,7 @@ export function About() {
                                     <Text color="gray.900" fontWeight={500}>Interior Painting</Text>
                                     <Text>We strictly adhere to agreed-upon deadlines, ensuring that your project is completed within the established timeframe.</Text>
                                 </Stack>
-                                <Link href="tel:+13522786979">
+                                <Link href="tel:+13523542939">
                                     <HStack color="#0573E4" cursor="pointer">
                                         <Icon as={RiPhoneFill} />
                                         <Text>Get free estimate</Text>

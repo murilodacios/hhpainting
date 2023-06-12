@@ -20,9 +20,9 @@ export function Contact() {
                 </Stack>
 
                 <HStack>
-                    <Link href="tel:+13522786979">
+                    <Link href="tel:+13523542939">
                         <Button colorScheme="white" variant="outline" p="8">
-                            <Text fontSize="2xl" >+1 352-278-6979</Text>
+                            <Text fontSize="2xl" >+1 352-354-2939</Text>
                         </Button>
                     </Link>
                 </HStack>
