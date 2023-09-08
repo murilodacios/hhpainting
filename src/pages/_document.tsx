@@ -17,6 +17,8 @@ export default class MyDocument extends Document {
                             gtag('config', 'AW-11240105576');
                     `}} />
 
+                    <meta name="google-site-verification" content="Va6QO7z7MvjZJ9fSZ0pfpyXIoVUVmspKCzyaouH_Yr0" />
+
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
