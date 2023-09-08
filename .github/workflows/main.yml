@@ -39,9 +39,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          script: |
-	    cd /var/www/ndojs/hhpainting
-            docker rm -f hhpainting
-      	    docker build -t hhpainting .
-            docker run --name hhpainting -p 3010:3010 hhpainting
-						
+          script: cd /var/www/ndojs/hhpainting && docker rm -f hhpainting
