@@ -1,4 +1,5 @@
 import { Box, Button, HStack, Icon, Image, Input, SimpleGrid, Stack, Text, Tabs, TabList, TabPanels, Tab, TabPanel, Card, CardBody, Heading, Divider, CardFooter, ButtonGroup, Tag, Grid } from "@chakra-ui/react";
+import Head from "next/head";
 import Link from "next/link";
 import { RiBrush2Fill, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiWhatsappFill } from "react-icons/ri";
 import { About } from "../components/About";
@@ -14,30 +15,21 @@ export default function Home() {
 
   return (
     <>
-      {/* <Stack bg="#0573E4" color="white">
-        <HStack maxW={1280} w="100%" margin="0 auto" justify="space-between" align="center">
-          <HStack py="4">
-            <Text fontWeight={700}>GET FREE ESTIMATE</Text>
-            <Text>Gainesville, FL</Text>
-          </HStack>
 
-          <HStack>
-            <Icon as={RiPhoneFill} />
-            <Text>+1 352-278-6979</Text>
-          </HStack>
-
-        </HStack>
-      </Stack> */}
+    <Head>
+      <title>Painters of Gainesville - HH Painting</title>
+    </Head>
 
       <Header />
 
       <Hero />
 
       <About />
+      
+      <Reviews />
 
       <Services />
 
-      <Reviews />
 
       <Contact />
 
