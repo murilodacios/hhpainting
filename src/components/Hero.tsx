@@ -35,7 +35,7 @@ export function Hero() {
                             </Stack>
 
                             <Stack>
-                                <Image src="/Stars.png" w="120px" />
+                                <Image src="/stars.png" w="120px" />
 
                                 <Link href="https://www.angi.com/companylist/us/fl/gainesville/hh-painting-reviews-10744644.htm">
                                     <HStack cursor="pointer">
@@ -87,7 +87,7 @@ export function Hero() {
 
                     <Stack direction={{base: "column-reverse", md: "row"}} align="flex-start">
                         <Stack>
-                            <Image src="/Stars.png" w="120px" />
+                            <Image src="/stars.png" w="120px" />
                             <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
                                 <HStack cursor="pointer">
                                     <Text>We are 5 stars on Google</Text>

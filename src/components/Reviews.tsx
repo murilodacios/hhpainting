@@ -36,7 +36,7 @@ export function Reviews() {
                                 and on schedule. Everything about the process was smooth and easy.
                             </Text>
 
-                            <Image src="/Stars.png" w="100px" />
+                            <Image src="/stars.png" w="100px" />
                         </Stack>
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
@@ -52,7 +52,7 @@ export function Reviews() {
                                 Very professional and excellent job! Highly recommend Feliciano and his team!
                             </Text>
 
-                            <Image src="/Stars.png" w="100px" />
+                            <Image src="/stars.png" w="100px" />
                         </Stack>
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
@@ -68,7 +68,7 @@ export function Reviews() {
                                 They did everything they said they would do in a timely manner. Will book them again when needed.
                             </Text>
 
-                            <Image src="/Stars.png" w="100px" />
+                            <Image src="/stars.png" w="100px" />
                         </Stack>
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
@@ -87,7 +87,7 @@ export function Reviews() {
                                 and certainly recommend them to anyone looking to get good results at a fair price.
                             </Text>
 
-                            <Image src="/Stars.png" w="100px" />
+                            <Image src="/stars.png" w="100px" />
                         </Stack>
 
 
