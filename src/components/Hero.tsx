@@ -39,7 +39,7 @@ export function Hero() {
 
                                 <Link href="https://www.angi.com/companylist/us/fl/gainesville/hh-painting-reviews-10744644.htm">
                                     <HStack cursor="pointer">
-                                        <Text>We are 5 stars on Angies List.</Text>
+                                        <Text>We are 5 stars on Angies List</Text>
                                         <Icon as={RiArrowRightUpLine} />
                                     </HStack>
                                 </Link>
