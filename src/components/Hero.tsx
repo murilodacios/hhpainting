@@ -39,7 +39,7 @@ export function Hero() {
 
                                 <Link href="https://www.angi.com/companylist/us/fl/gainesville/hh-painting-reviews-10744644.htm">
                                     <HStack cursor="pointer">
-                                        <Text>We are 5 stars on Angie's List.</Text>
+                                        <Text>We are 5 stars on Angies List.</Text>
                                         <Icon as={RiArrowRightUpLine} />
                                     </HStack>
                                 </Link>
@@ -127,7 +127,7 @@ export function Hero() {
                     </Text>
 
                     <Text fontSize="md" fontWeight={500} color="gray.500">
-                        Our residential painting services go beyond just painting. <br></br>We deliver customized solutions and a level of care that exceeds anything you've seen before.
+                        Our residential painting services go beyond just painting. <br></br>We deliver customized solutions and a level of care that exceeds anything you have seen before.
                     </Text>
 
                     <Box>

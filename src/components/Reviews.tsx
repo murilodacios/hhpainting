@@ -30,10 +30,10 @@ export function Reviews() {
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
                             <Text>
-                                "The house looks amazing. I love it! So much attention to detail. In addition to doing a thorough
-                                cleaning and prep before painting, small (and not so small) necessary repairs were handled so that the finished
+                                The house looks amazing. I love it! So much attention to detail. In addition to doing a thorough
+                                cleaning and prep before painting, small necessary repairs were handled so that the finished
                                 product looks amazing. The area was left clean. The work was quoted accurately in advance. Work was done quickly
-                                and on schedule. Everything about the process was smooth and easy."
+                                and on schedule. Everything about the process was smooth and easy.
                             </Text>
 
                             <Image src="/Stars.png" w="100px" />

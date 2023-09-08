@@ -154,7 +154,7 @@ export function Services() {
                         </Text>
 
                         <Text fontSize="lg" fontWeight={400}>
-                            We've gathered some common questions, and if these don't help, please don't hesitate to give us a call so we can chat.
+                            We have gathered some common questions, and if these do not help, please do not hesitate to give us a call so we can chat.
                         </Text>
 
                         <HStack>
@@ -185,7 +185,7 @@ export function Services() {
                                     </AccordionButton>
                                 </h2>
                                 <AccordionPanel pb={4}>
-                                    Before beginning to paint, it's important to prepare the surface. This may include cleaning the walls, repairing cracks or imperfections, applying primer, and protecting furniture and floors.
+                                    Before beginning to paint, it is important to prepare the surface. This may include cleaning the walls, repairing cracks or imperfections, applying primer, and protecting furniture and floors.
                                 </AccordionPanel>
                             </AccordionItem>
 
