@@ -1,6 +1,6 @@
 import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid } from "@chakra-ui/react";
 import Link from "next/link";
-import { RiArrowRightUpLine, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
+import { RiArrowRightLine, RiArrowRightUpLine, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
 
 
@@ -13,22 +13,22 @@ export function Hero() {
         <>
             <Stack bgImage="/back-hero.png" bgPos="center" bgSize="cover">
 
-                <Grid maxW={1400} w="100%" margin="0 auto" fontFamily="Inter" px="4" templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
+                <Grid maxW={1400} w="100%" margin="0 auto" fontFamily="Inter" fontStyle="normal" px="4" templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
 
-                    <Stack py="20" align="center" justify="center">
+                    <Stack py={{base: "12", md: "20"}} align="center" justify="center">
                         <Stack spacing="8" >
                             <Stack>
-                                <Text fontSize="lg" color="#88C3FF">More than just a painting, we are a partner for your home</Text>
+                                <Text fontSize={{base: "xl", md: "2xl"}} color="#88C3FF">More than just a painting, we are a partner for your home</Text>
                             </Stack>
-                            <Text fontSize={{ base: "4xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">Transform your home with <strong>HH Painting</strong></Text>
+                            <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">Transform your home with <strong>HH Painting</strong></Text>
 
                             <Stack spacing="8" direction={{base: "column", md: "row"}}>
                                 <Box>
                                     <Link href="tel:+13523542939">
-                                        <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="20">
+                                        <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
                                             <HStack px="12" py="6">
                                                 <Text fontSize="md">Get a free quote now</Text>
-                                                <Icon as={RiArrowRightUpLine} />
+                                                <Icon as={RiArrowRightLine} />
                                             </HStack>
                                         </Button>
                                     </Link>
@@ -54,7 +54,7 @@ export function Hero() {
                     </Stack>
 
                     <Stack position="relative" justify="flex-end">
-                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{base: "5",md: "10"}} bg="rgba(16, 20, 50, 0.40);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
+                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{base: "5",md: "10"}} bg="rgba(16, 20, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
                             <Icon as={RiPaintBrushFill} fontSize="32" color="white" />
                         </Stack>
 

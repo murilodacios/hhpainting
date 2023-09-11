@@ -74,7 +74,7 @@ export function Reviews() {
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
                                 <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Anon.</Text>
+                                    <Text color="#0573E4" fontWeight={600}>Nikki</Text>
                                     <Image src="/angis.svg" w="40px" />
                                 </Stack>
 
