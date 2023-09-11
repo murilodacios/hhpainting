@@ -7,17 +7,20 @@ import { useAuthenticate } from "../hooks/AuthContext";
 export function Hero() {
 
     return (
+
+
+        // bg="linear-gradient(45deg, #0573E4 -7.72%, #0F1B27 137.61%);"
         <>
-            <Stack bg="linear-gradient(263deg, #0573E4 -7.72%, #0F1B27 137.61%);">
+            <Stack bgImage="/back-hero.png" bgPos="center" bgSize="cover">
 
                 <Grid maxW={1400} w="100%" margin="0 auto" fontFamily="Inter" px="4" templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
 
-                    <Stack py="12" align="center" justify="center">
+                    <Stack py="20" align="center" justify="center">
                         <Stack spacing="8" >
-                            <Stack maxW={{base: "100%", md: "70%"}}>
-                                <Text fontSize="xl" color="#88C3FF">More than just a painting, we are a partner for your home</Text>
+                            <Stack>
+                                <Text fontSize="lg" color="#88C3FF">More than just a painting, we are a partner for your home</Text>
                             </Stack>
-                            <Text fontSize={{ base: "4xl", md: "6xl" }} fontWeight={400} lineHeight="1.1">Transform your home with <strong>HH Painting</strong></Text>
+                            <Text fontSize={{ base: "4xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">Transform your home with <strong>HH Painting</strong></Text>
 
                             <Stack spacing="8" direction={{base: "column", md: "row"}}>
                                 <Box>
@@ -50,12 +53,12 @@ export function Hero() {
 
                     </Stack>
 
-                    <Stack position="relative">
-                        <Stack left={{ base: "20", md: "150" }} top={{base: "5",md: "10"}} bg="#A3C7E1" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
+                    <Stack position="relative" justify="flex-end">
+                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{base: "5",md: "10"}} bg="rgba(16, 20, 50, 0.40);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
                             <Icon as={RiPaintBrushFill} fontSize="32" color="white" />
                         </Stack>
 
-                        <Stack left="0" top={{base: "200", md: "300"}} bg="#0573E4" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
+                        <Stack borderRadius="10" left="0" top={{base: "200", md: "300"}} bg="rgba(2, 10, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
                             <Icon as={RiHome2Fill} fontSize="32" color="white" />
                         </Stack>
 
