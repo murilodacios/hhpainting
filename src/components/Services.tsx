@@ -26,7 +26,6 @@ export function Services() {
 
                     <Text fontSize="lg" fontWeight={400} textAlign="center">
                         At HH Painting, we specialize in providing top-notch residential painting services that breathe new life into your home. Our skilled team of painters is dedicated to transforming your living spaces with precision and attention to detail.
-                        Whether you are looking to refresh the interior of your home, update the exterior, or create a whole new color scheme, we have the expertise to bring your vision to reality.
                     </Text>
                 </Stack>
 

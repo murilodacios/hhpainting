@@ -42,7 +42,7 @@ export function Header() {
                         </HStack>
                     </HStack>
 
-                    <HStack spacing="4" color="#0573E4">
+                    <HStack spacing="4" color="#fff">
                         <Link href="https://www.instagram.com/hhpaintingfl/">
                             <Icon cursor="pointer" as={RiInstagramFill} />
                         </Link>

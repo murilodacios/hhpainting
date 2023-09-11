@@ -14,9 +14,9 @@ export function About() {
                     <Stack pt="12" mt="6" spacing="2" align="center">
                         <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4" textAlign="center">Your home transformed in a few simple steps</Text>
                         <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
-                            We have the perfect plan for transforming your <br></br>home and making your dreams come true.
+                            We have the perfect plan for transforming your home
                         </Text>
-                        <Text fontSize="xl" fontWeight={400} color="gray.600" textAlign="center">With HH Painting, you can rely on a professional and dedicated team that provides exceptional painting services,<br></br> adding value and transforming your spaces.</Text>
+                        <Text fontSize="xl" fontWeight={400} color="gray.600" textAlign="center">With HH Painting, you can rely on a professional and dedicated team that provides exceptional painting services.</Text>
                     </Stack>
 
                     <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} py="8" gap="6">
