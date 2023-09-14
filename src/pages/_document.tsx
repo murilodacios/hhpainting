@@ -34,6 +34,11 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                         fbq('track', 'PageView');
                     `}} />
 
+                    {/* @ts-ignore */}
+                    <noscript><img height="1" width="1" style={{ display: "none" }}
+                        src="https://www.facebook.com/tr?id=7479274445432278&ev=PageView&noscript=1"
+                    /></noscript>
+
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
