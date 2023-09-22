@@ -75,7 +75,7 @@ export function Reviews() {
                 </Stack>
             </Stack>
 
-            <Stack bg="#F5F8FD" id="about" p="4" fontFamily="Inter"></Stack>
+         
 
 
 
