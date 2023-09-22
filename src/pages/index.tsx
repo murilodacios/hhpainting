@@ -5,9 +5,15 @@ import { RiBrush2Fill, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagram
 import { About } from "../components/About";
 import { CardServices } from "../components/CardServices";
 import { Contact } from "../components/Contact";
+import { Garantia } from "../components/Garantia";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
+import { HowWorks } from "../components/HowWorks";
+import { LastChance } from "../components/LastChance";
+import { Problem } from "../components/Problem";
+import { QuemSomos } from "../components/QuemSomos";
 import { Reviews } from "../components/Reviews";
+import { Reviews2 } from "../components/Reviews2";
 import { Services } from "../components/Services";
 
 
@@ -25,11 +31,22 @@ export default function Home() {
       <Hero />
 
       <About />
-      
-      <Reviews />
 
+      <Problem />
+    
       <Services />
 
+      <Reviews />
+
+      <HowWorks />
+
+      <Reviews2 />
+
+      <Garantia />
+
+      <QuemSomos />
+
+      <LastChance />
 
       <Contact />
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { RiArrowRightUpLine, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
 
-export function Reviews() {
+export function Reviews2() {
 
     return (
         <>
@@ -14,26 +14,24 @@ export function Reviews() {
                     <Stack pt="12" mt="6" spacing="2" align="center">
                         <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4">Honest reviews</Text>
                         <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
-                            Testimonials
+                            What do they say about us?
                         </Text>
                     </Stack>
 
                     <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} py="8" gap="6">
 
+
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
                                 <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Naomi S</Text>
+                                    <Text color="#0573E4" fontWeight={600}>Frederic Souret</Text>
                                     <Image src="/google.png" w="60px" />
                                 </Stack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
                             <Text>
-                                The house looks amazing. I love it! So much attention to detail. In addition to doing a thorough
-                                cleaning and prep before painting, small necessary repairs were handled so that the finished
-                                product looks amazing. The area was left clean. The work was quoted accurately in advance. Work was done quickly
-                                and on schedule. Everything about the process was smooth and easy.
+                                Very professional and excellent job! Highly recommend Feliciano and his team!
                             </Text>
 
                             <Image src="/stars.png" w="100px" />
@@ -42,21 +40,20 @@ export function Reviews() {
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
                                 <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Nikki</Text>
+                                    <Text color="#0573E4" fontWeight={600}>Kim S.</Text>
                                     <Image src="/angis.svg" w="40px" />
                                 </Stack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
                             <Text>
-                                These guys were the epitome of professionalism and quality work. They showed up on time every day, were as unobtrusive as possible,
-                                since I work from home, and they did the job beautifully. Even with the crazy Florida Rains, which put them off schedule
-                                a couple of days, they were still able to complete the work in the original. He promised timeframe. I will definitely use them again,
-                                and certainly recommend them to anyone looking to get good results at a fair price.
+                                They did everything they said they would do in a timely manner. Will book them again when needed.
                             </Text>
 
                             <Image src="/stars.png" w="100px" />
                         </Stack>
+
+                       
 
 
 

@@ -41,6 +41,7 @@ export function About() {
 
                     </Grid>
                 </Stack>
+  
             </Stack>
 
 

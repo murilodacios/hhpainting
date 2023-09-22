@@ -10,7 +10,7 @@ export function Contact() {
         <>
 
 
-            <Stack bg="white" py="6" px="4" borderTop="1px solid #eee">
+            {/* <Stack bg="white" py="6" px="4" borderTop="1px solid #eee">
                 <Stack px="4" direction={{base: "column", md: "row"}} maxW={1400} margin="0 auto" w="100%"  id="contact" spacing="8" gap="8" align="flex-start">
 
                     <Stack>
@@ -27,7 +27,7 @@ export function Contact() {
                     </Stack>
 
                 </Stack>
-            </Stack>
+            </Stack> */}
 
 
         </>

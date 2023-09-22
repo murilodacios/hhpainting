@@ -17,10 +17,12 @@ export function Hero() {
 
                     <Stack py={{base: "12", md: "20"}} align="center" justify="center">
                         <Stack spacing="8" >
+                            
+                            <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We’ll Paint Your Ugly House!</Text>
+
                             <Stack>
-                                <Text fontSize={{base: "xl", md: "2xl"}} color="#88C3FF">More than just a painting, we are a partner for your home</Text>
+                                <Text fontSize={{base: "xl", md: "2xl"}} color="#88C3FF">Transform Your Ugly House Into A Beautiful Home!</Text>
                             </Stack>
-                            <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">Transform your home with <strong>HH Painting</strong></Text>
 
                             <Stack spacing="8" direction={{base: "column", md: "row"}}>
                                 <Box>
