@@ -38,7 +38,7 @@ export function Services() {
 
                 <Stack align="center" py="4">
                     <Box>
-                        <Link href="tel:+13523542939">
+                        <Link href="/quote">
                             <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
                                 <HStack px="12" py="6">
                                     <Text fontSize="md">I want a free quote!</Text>
@@ -50,11 +50,6 @@ export function Services() {
                 </Stack>
 
                 <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} gap="4" pt="8">
-                    <CardServices title="Brick Painting & Limewashing" type="Exterior" />
-                    <CardServices title="EPA Lead Certified" type="Exterior" />
-                    <CardServices title="Painting and Staining" type="Exterior" />
-                    <CardServices title="Power Washing" type="Exterior" />
-                    <CardServices title="Stucco Repairs and Painting" type="Exterior" />
                     <CardServices title="Vinyl and Aluminum Siding Painting" type="Exterior" />
                     <CardServices title="Color Consultation" type="Exterior" />
                     <CardServices title="Concrete Staining and Epoxy Finish" type="Exterior" />

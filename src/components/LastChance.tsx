@@ -19,7 +19,7 @@ export function LastChance() {
 
                         </Text>
                         <Box>
-                            <Link href="tel:+13523542939">
+                            <Link href="/quote">
                                 <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
                                     <HStack px="12" py="6">
                                         <Text fontSize="md">Get a free quote now</Text>

@@ -38,7 +38,7 @@ export function HowWorks() {
                         </Text>
 
                         <Box>
-                            <Link href="tel:+13523542939">
+                            <Link href="/quote">
                                 <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20">
                                     <HStack px="6" py="6">
                                         <Text fontSize="md">Get a free quote now</Text>
@@ -89,7 +89,7 @@ export function HowWorks() {
 
                     <Stack align="center" py="4">
                         <Box>
-                            <Link href="tel:+13523542939">
+                            <Link href="/quote">
                                 <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
                                     <HStack px="12" py="6">
                                         <Text fontSize="md">I want a free quote!</Text>

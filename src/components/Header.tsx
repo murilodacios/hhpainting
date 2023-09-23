@@ -51,7 +51,7 @@ export function Header() {
                             <Icon cursor="pointer" as={RiFacebookFill} />
                         </Link>
 
-                        <Link href="tel:+13523542939">
+                        <Link href="/quote">
                             <Button border="1px solid #0573E4" borderRadius="20" color="#fff" px="8" bg="transparent" _hover={{ bg: "#002042" }}>
                                 <Text
                                     fontStyle="normal"
