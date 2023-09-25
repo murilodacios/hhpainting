@@ -120,7 +120,7 @@ export default function Quote() {
                     <Stack spacing="8" >
 
                         <Link href="/">
-                            <Image src="/logo.png" w="50px" cursor="pointer"/>
+                            <Image src="/logo.png" w="50px" cursor="pointer" />
                         </Link>
 
                         <Stack>
@@ -156,9 +156,13 @@ export default function Quote() {
                                         <Input id="phone" {...register("phone")} />
                                     </FormControl>
 
-                                    <HStack pt="4">
-                                        <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
-                                    </HStack>
+                                    {watch("name") && watch("email") && watch("phone")
+                                        &&
+
+                                        <HStack pt="4">
+                                            <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
+                                        </HStack>
+                                    }
                                 </>
 
                                 :
@@ -190,7 +194,10 @@ export default function Quote() {
                                         <HStack align="center" pt="6">
                                             <Button onClick={() => setPage(page - 1)}>Back</Button>
 
-                                            <Button onClick={() => setPage(page + 1)} colorScheme="blue">Next</Button>
+                                            {watch("address") && watch("zip_code")
+                                                &&
+                                                <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
+                                            }
                                         </HStack>
 
 
@@ -215,7 +222,10 @@ export default function Quote() {
                                             <HStack align="center" pt="6">
                                                 <Button onClick={() => setPage(page - 1)}>Back</Button>
 
-                                                <Button onClick={() => setPage(page + 1)} colorScheme="blue">Next</Button>
+                                                {watch("type")
+                                                    &&
+                                                    <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
+                                                }
                                             </HStack>
 
 
@@ -238,7 +248,10 @@ export default function Quote() {
                                                 <HStack align="center" pt="6">
                                                     <Button onClick={() => setPage(page - 1)}>Back</Button>
 
-                                                    <Button onClick={() => setPage(page + 1)} colorScheme="blue">Next</Button>
+                                                    {watch("about")
+                                                        &&
+                                                        <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
+                                                    }
                                                 </HStack>
 
 
@@ -263,7 +276,10 @@ export default function Quote() {
                                                     <HStack align="center" pt="6">
                                                         <Button onClick={() => setPage(page - 1)}>Back</Button>
 
-                                                        <Button onClick={() => setPage(page + 1)} colorScheme="blue">Next</Button>
+                                                        {watch("velocity")
+                                                            &&
+                                                            <Button colorScheme="blue" onClick={() => setPage(page + 1)} >Next</Button>
+                                                        }
                                                     </HStack>
 
 
@@ -292,9 +308,14 @@ export default function Quote() {
 
                                                         </HStack>
 
-                                                        <Button variant="solid" colorScheme="blue" type="submit">
-                                                            <Text>Submit</Text>
-                                                        </Button>
+                                                        {watch("found_us")
+                                                            &&
+                                                            <Button variant="solid" colorScheme="blue" type="submit">
+                                                                <Text>Submit</Text>
+                                                            </Button>
+                                                        }
+
+
 
 
                                                     </>
