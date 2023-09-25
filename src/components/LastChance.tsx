@@ -18,16 +18,18 @@ export function LastChance() {
 
 
                         </Text>
-                        <Box>
-                            <Link href="/quote">
-                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
-                                    <HStack px="12" py="6">
-                                        <Text fontSize="md">Get a free quote now</Text>
-                                        <Icon as={RiArrowRightLine} />
-                                    </HStack>
-                                </Button>
-                            </Link>
-                        </Box>
+                        <Stack align="center">
+                            <Box>
+                                <Link href="/quote">
+                                    <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="12" py="8">
+                                        <HStack px="4" py="12">
+                                            <Text fontSize="xl">I Want My House Painted</Text>
+                                            <Icon as={RiArrowRightUpLine} />
+                                        </HStack>
+                                    </Button>
+                                </Link>
+                            </Box>
+                        </Stack>
 
                         <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start" py="8">
                             <Stack>

@@ -28,16 +28,12 @@ export function Header() {
                                 <Text cursor="pointer" _hover={{ color: "#0573E4" }}>Reviews</Text>
                             </Link>
 
-                            <Link href="/#location">
-                                <Text cursor="pointer" _hover={{ color: "#0573E4" }}>Our Location</Text>
+                            <Link href="/#team">
+                                <Text cursor="pointer" _hover={{ color: "#0573E4" }}>Our Team</Text>
                             </Link>
 
                             <Link href="/#faq">
                                 <Text cursor="pointer" _hover={{ color: "#0573E4" }}>FAQs</Text>
-                            </Link>
-
-                            <Link href="/#contact">
-                                <Text cursor="pointer" _hover={{ color: "#0573E4" }}>Contact</Text>
                             </Link>
                         </HStack>
                     </HStack>

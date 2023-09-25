@@ -1,4 +1,4 @@
-import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid, Tag } from "@chakra-ui/react";
+import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid, Tag, Avatar } from "@chakra-ui/react";
 import Link from "next/link";
 import { RiArrowRightUpLine, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
@@ -23,10 +23,16 @@ export function Reviews2() {
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
-                                <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Frederic Souret</Text>
-                                    <Image src="/google.png" w="60px" />
-                                </Stack>
+
+                                <HStack>
+                                    <Avatar src='https://img.freepik.com/fotos-gratis/homem-senior-bebendo-cerveja_23-2149316813.jpg?size=626&ext=jpg&ga=GA1.2.1430005308.1684446687&semt=ais' />
+
+                                    <Stack>
+                                        <Text color="#0573E4" fontWeight={600}>Frederic Souret</Text>
+                                        <Image src="/google.png" w="60px" />
+                                    </Stack>
+
+                                </HStack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
@@ -39,10 +45,14 @@ export function Reviews2() {
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
-                                <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Kim S.</Text>
-                                    <Image src="/angis.svg" w="40px" />
-                                </Stack>
+                                <HStack>
+                                    <Avatar src='https://img.freepik.com/fotos-gratis/retrato-de-homem-feliz-e-sorridente_23-2149022621.jpg' />
+
+                                    <Stack>
+                                        <Text color="#0573E4" fontWeight={600}>Kim S.</Text>
+                                        <Image src="/angis.svg" w="40px" />
+                                    </Stack>
+                                </HStack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
@@ -53,22 +63,24 @@ export function Reviews2() {
                             <Image src="/stars.png" w="100px" />
                         </Stack>
 
-                       
+
 
 
 
                     </Grid>
 
-                    <Box pb="12">
-                        <Link href="/quote">
-                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20">
-                                <HStack px="6" py="6">
-                                    <Text fontSize="md">I Want My House Painted</Text>
-                                    <Icon as={RiArrowRightUpLine} />
-                                </HStack>
-                            </Button>
-                        </Link>
-                    </Box>
+                    <Stack align="center" pt="8">
+                        <Box pb="12">
+                            <Link href="/quote">
+                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="12" py="8">
+                                    <HStack px="4" py="12">
+                                        <Text fontSize="lg">I Want My House Painted</Text>
+                                        <Icon as={RiArrowRightUpLine} />
+                                    </HStack>
+                                </Button>
+                            </Link>
+                        </Box>
+                    </Stack>
                 </Stack>
             </Stack>
 

@@ -15,16 +15,16 @@ export function Hero() {
 
                 <Grid maxW={1400} w="100%" margin="0 auto" fontFamily="Inter" fontStyle="normal" px="4" templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
 
-                    <Stack py={{base: "12", md: "20"}} align="center" justify="center">
+                    <Stack py={{ base: "12", md: "20" }} align="center" justify="center">
                         <Stack spacing="8" >
-                            
+
                             <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We’ll Paint Your Ugly House!</Text>
 
                             <Stack>
-                                <Text fontSize={{base: "xl", md: "2xl"}} color="#88C3FF">Transform Your Ugly House Into A Beautiful Home!</Text>
+                                <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">Transform Your Ugly House Into A Beautiful Home!</Text>
                             </Stack>
 
-                            <Stack spacing="8" direction={{base: "column", md: "row"}}>
+                            <Stack spacing="8" direction={{ base: "column", md: "row" }}>
                                 <Box>
                                     <Link href="/quote">
                                         <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
@@ -36,19 +36,21 @@ export function Hero() {
                                     </Link>
                                 </Box>
 
-                                <Text>You can have all the free <br></br>quotes you need</Text>
+
                             </Stack>
 
-                            <Stack>
-                                <Image src="/stars.png" w="120px" />
+                            <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start">
+                                <Stack>
+                                    <Image src="/stars.png" w="120px" />
+                                    <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
+                                        <HStack cursor="pointer">
+                                            <Text>We are 5 stars on Google</Text>
+                                            <Icon as={RiArrowRightUpLine} />
+                                        </HStack>
+                                    </Link>
+                                </Stack>
 
-                                <Link href="https://www.angi.com/companylist/us/fl/gainesville/hh-painting-reviews-10744644.htm">
-                                    <HStack cursor="pointer">
-                                        <Text>We are 5 stars on Angies List</Text>
-                                        <Icon as={RiArrowRightUpLine} />
-                                    </HStack>
-                                </Link>
-
+                                <Image src="/google.png" w="120px" />
                             </Stack>
 
                         </Stack>
@@ -56,11 +58,11 @@ export function Hero() {
                     </Stack>
 
                     <Stack position="relative" justify="flex-end">
-                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{base: "5",md: "10"}} bg="rgba(16, 20, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
+                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{ base: "5", md: "10" }} bg="rgba(16, 20, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{ base: "70px", md: "90px" }} h={{ base: "70px", md: "90px" }} align="center" justify="center">
                             <Icon as={RiPaintBrushFill} fontSize="32" color="white" />
                         </Stack>
 
-                        <Stack borderRadius="10" left="0" top={{base: "200", md: "300"}} bg="rgba(2, 10, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{base: "70px" , md: "90px"}} h={{base: "70px" , md: "90px"}} align="center" justify="center">
+                        <Stack borderRadius="10" left="0" top={{ base: "200", md: "300" }} bg="rgba(2, 10, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{ base: "70px", md: "90px" }} h={{ base: "70px", md: "90px" }} align="center" justify="center">
                             <Icon as={RiHome2Fill} fontSize="32" color="white" />
                         </Stack>
 
@@ -74,41 +76,26 @@ export function Hero() {
             </Stack>
 
 
-            <Stack borderBottom="1px solid #eee">
+            <Stack>
                 <HStack maxW={1400} w="100%" margin="0 auto" px="4" py="8" gap="12" justify="space-between" align="flex-start" fontFamily="Inter">
-                    <Stack spacing="8" align="flex-start" direction={{base: "column", md: "row"}}>
+                    <Stack spacing="8" align="flex-start" direction={{ base: "column", md: "row" }}>
                         <Text fontSize="md" fontWeight={500} color="#454545">
                             We transform your home to make it truly<br></br> yours and more vibrant. Just the way you <br></br>have always dreamed.
                         </Text>
 
-                        <Stack spacing="2" color="#454545">
-                            <Text fontSize="xl" fontWeight="bold">
-                                +30 satisfied<br></br>
-                                partners
-                            </Text>
-                        </Stack>
                     </Stack>
 
-
-                    <Stack direction={{base: "column-reverse", md: "row"}} align="flex-start">
-                        <Stack>
-                            <Image src="/stars.png" w="120px" />
-                            <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
-                                <HStack cursor="pointer">
-                                    <Text>We are 5 stars on Google</Text>
-                                    <Icon as={RiArrowRightUpLine} />
-                                </HStack>
-                            </Link>
-                        </Stack>
-
-                        <Image src="/google.png" w="120px" />
+                    <Stack spacing="2" color="#454545">
+                        <Text fontSize="xl" fontWeight="bold">
+                            +30 satisfied<br></br>
+                            partners
+                        </Text>
                     </Stack>
-
                 </HStack>
             </Stack>
 
 
-           
+
 
 
         </>

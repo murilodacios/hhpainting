@@ -30,10 +30,8 @@ export default function Home() {
 
       <Hero />
 
-      <About />
-
       <Problem />
-    
+
       <Services />
 
       <Reviews />
@@ -47,10 +45,8 @@ export default function Home() {
       <QuemSomos />
 
       <LastChance />
-
+      
       <Contact />
-
-
 
     </>
   )

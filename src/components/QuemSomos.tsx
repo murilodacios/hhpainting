@@ -16,7 +16,7 @@ export function QuemSomos() {
 
     return (
         <>
-            <Stack maxW={1400} w="100%" margin="0 auto" py="12" id="services" p="4">
+            <Stack maxW={1400} w="100%" margin="0 auto" py="12"  p="4" id="team">
                 <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} py="8" gap="4">
 
                     <Stack spacing="4" margin="0 auto" >
@@ -48,7 +48,7 @@ export function QuemSomos() {
 
                     </Stack>
 
-                    <Stack w="100%">
+                    <Stack w="100%" id="faq">
                         <Accordion allowToggle>
                             <AccordionItem>
                                 <h2>

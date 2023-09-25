@@ -1,4 +1,4 @@
-import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid, Tag } from "@chakra-ui/react";
+import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid, Tag, Avatar } from "@chakra-ui/react";
 import Link from "next/link";
 import { RiArrowRightUpLine, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
@@ -22,10 +22,14 @@ export function Reviews() {
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
-                                <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Naomi S</Text>
-                                    <Image src="/google.png" w="60px" />
-                                </Stack>
+
+                                <HStack>
+                                    <Avatar src='https://assets.propmark.com.br/uploads/2023/03/Viviane-Pepe---Diretora-de-Comunica--o-da-Avon-Brasil--2-.jpg' />
+                                    <Stack>
+                                        <Text color="#0573E4" fontWeight={600}>Naomi S</Text>
+                                        <Image src="/google.png" w="60px" />
+                                    </Stack>
+                                </HStack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
@@ -41,10 +45,14 @@ export function Reviews() {
 
                         <Stack bg="white" p="8" spacing="6" border="1px solid #CCE5FF" transition="0.6s all" borderRadius="20">
                             <HStack justify="space-between" align="flex-start">
-                                <Stack>
-                                    <Text color="#0573E4" fontWeight={600}>Nikki</Text>
-                                    <Image src="/angis.svg" w="40px" />
-                                </Stack>
+
+                                <HStack>
+                                    <Avatar src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJD8PDMwQdWoOyixztYSO2heQSLRjxEq5XFg&usqp=CAU' />
+                                    <Stack>
+                                        <Text color="#0573E4" fontWeight={600}>Nikki</Text>
+                                        <Image src="/angis.svg" w="40px" />
+                                    </Stack>
+                                </HStack>
 
                                 <Text>Gainesville, FL.</Text>
                             </HStack>
@@ -62,20 +70,22 @@ export function Reviews() {
 
                     </Grid>
 
-                    <Box pb="12">
-                        <Link href="/quote">
-                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20">
-                                <HStack px="6" py="6">
-                                    <Text fontSize="md">I Want My House Painted</Text>
-                                    <Icon as={RiArrowRightUpLine} />
-                                </HStack>
-                            </Button>
-                        </Link>
-                    </Box>
+                    <Stack align="center">
+                        <Box pb="12">
+                            <Link href="/quote">
+                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="8" py="8">
+                                    <HStack px="4" py="12">
+                                        <Text fontSize="lg">I Want My House Painted</Text>
+                                        <Icon as={RiArrowRightUpLine} />
+                                    </HStack>
+                                </Button>
+                            </Link>
+                        </Box>
+                    </Stack>
                 </Stack>
             </Stack>
 
-         
+
 
 
 

@@ -24,10 +24,10 @@ export function Services() {
                         What Do We Paint?
                     </Text>
 
-                    <Text fontSize="lg" fontWeight={400} textAlign="center" pb="4">
-                        At HH Painting, we specialize in providing top-notch residential painting services that breathe new life into your home. Our skilled team of painters is dedicated to transforming your living spaces with precision and attention to detail.
-                    </Text>
+                    <Text color="blue.600" fontSize={{ base: "xl", md: "2xl" }}>Exterior Painting</Text>
                 </Stack>
+
+
 
                 <SimpleGrid columns={{ base: 1, md: 2 }} gap="4">
 
@@ -36,20 +36,20 @@ export function Services() {
                     <Image src="/residential/after.png" />
                 </SimpleGrid>
 
-                <Stack align="center" py="4">
-                    <Box>
+                <Stack align="center" pt="8">
+                    <Box pb="12">
                         <Link href="/quote">
-                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
-                                <HStack px="12" py="6">
-                                    <Text fontSize="md">I want a free quote!</Text>
-                                    <Icon as={RiArrowRightLine} />
+                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="12" py="8">
+                                <HStack px="4" py="12">
+                                    <Text fontSize="xl">Get a free quote now</Text>
+                                    <Icon as={RiArrowRightUpLine} />
                                 </HStack>
                             </Button>
                         </Link>
                     </Box>
                 </Stack>
 
-                <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} gap="4" pt="8">
+                {/* <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} gap="4" pt="8">
                     <CardServices title="Vinyl and Aluminum Siding Painting" type="Exterior" />
                     <CardServices title="Color Consultation" type="Exterior" />
                     <CardServices title="Concrete Staining and Epoxy Finish" type="Exterior" />
@@ -59,12 +59,8 @@ export function Services() {
                     <CardServices title="Crown Molding Services" type="Exterior" />
                     <CardServices title="Cabinet Refinishing and Repainting" type="Exterior" />
 
-                </Grid>
+                </Grid> */}
 
-                
-
-
-               
 
                 {/* <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} gap="2" pt="8">
                     <Image src="/house-painting/1.png" />
