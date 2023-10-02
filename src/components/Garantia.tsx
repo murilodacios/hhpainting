@@ -29,7 +29,7 @@ export function Garantia() {
 
                     <Stack align="center">
                         <Box pb="12">
-                            <Link href="/quote">
+                            <Link href="/quote" >
                                 <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="8" py="8">
                                     <HStack px="8" py="12">
                                         <Text fontSize="lg">I Want My House Painted</Text>
