@@ -16,8 +16,8 @@ export function QuemSomos() {
 
     return (
         <>
-            <Stack maxW={1400} w="100%" margin="0 auto" py="12"  p="4" id="team">
-                <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} py="8" gap="4">
+            <Stack maxW={1400} w="100%" margin="0 auto" py="12" p="4" id="team">
+                <Grid templateColumns={{ base: "1fr", md: "1.5fr 1fr" }} py="8" gap="4">
 
                     <Stack spacing="4" margin="0 auto" >
                         <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4">
@@ -48,8 +48,19 @@ export function QuemSomos() {
 
                     </Stack>
 
-                    <Stack w="100%" id="faq">
-                        <Accordion allowToggle>
+                    <Image src="/feliciano-e-pai.jpg" />
+
+
+                </Grid>
+
+                <Stack py="8">
+                    <Stack w="100%" id="faq" align="center">
+
+                        <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" py="4">
+                            FAQ
+                        </Text>
+
+                        <Accordion allowToggle w="100%">
                             <AccordionItem>
                                 <h2>
                                     <AccordionButton py="4">
@@ -121,18 +132,8 @@ export function QuemSomos() {
                             </AccordionItem>
                         </Accordion>
                     </Stack>
-                </Grid>
+                </Stack>
 
-
-                {/* <Grid templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }} gap="2" pt="8">
-                    <Image src="/house-painting/1.png" />
-                    <Image src="/house-painting/2.png" />
-                    <Image src="/house-painting/3.png" />
-                    <Image src="/house-painting/4.png" />
-                    <video controls>
-                        <source src="/house-painting/video.mp4" type="video/mp4" />
-                    </video>
-                </Grid> */}
             </Stack>
 
         </>
