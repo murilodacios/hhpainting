@@ -40,9 +40,9 @@ export default function Home() {
 
       <Reviews2 />
 
-      <Garantia />
-
       <QuemSomos />
+
+      <Garantia />
 
       <LastChance />
       

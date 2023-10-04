@@ -17,32 +17,49 @@ export function Services() {
 
     return (
         <>
-            <Stack maxW={1400} w="100%" margin="0 auto" py="8" id="services" p="4">
-                <Stack pt="12" mt="6" spacing="2" align="center">
-                    <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4">Residential Painting</Text>
+            <Stack maxW={1400} w="100%" margin="0 auto" py="8" id="services" p="4" fontFamily="Inter">
+
+                <Stack py="12" mt="6" spacing="2" align="center">
+                    <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#001024">Residential Painting</Text>
                     <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
                         What Do We Paint?
                     </Text>
-
-                    <Text color="blue.600" fontSize={{ base: "xl", md: "2xl" }}>Exterior Painting</Text>
                 </Stack>
 
 
+                <Stack spacing="0">
+                    <SimpleGrid columns={{ base: 1, md: 2 }} bg="gray.100">
 
-                <SimpleGrid columns={{ base: 1, md: 2 }} gap="4">
+                        <Stack p="12" align="center" justify="center">
+                            <Text fontSize="2xl">
+                                This is the exterior of a house that needed an exterior paint job.
+                            </Text>
+                        </Stack>
+                        <Image src="/residential/before.png" />
 
-                    <Image src="/residential/before.png" transform="rotate(45)" />
+                    </SimpleGrid>
 
-                    <Image src="/residential/after.png" />
-                </SimpleGrid>
+                    <SimpleGrid columns={{ base: 1, md: 2 }} bg="gray.100">
+
+                        <Image src="/residential/after.png" />
+
+                        <Stack p="12" align="center" justify="center">
+                            <Text fontSize="2xl">
+                                And this is the exterior of the same house after the professionals from HH Painting completed the job.
+                            </Text>
+                        </Stack>
+
+
+                    </SimpleGrid>
+                </Stack>
 
                 <Stack align="center" pt="8">
-                    <Box pb="12">
+                    <Box>
                         <Link href="/quote">
-                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="12" py="8">
-                                <HStack px="4" py="12">
-                                    <Text fontSize="xl">Get a free quote now</Text>
-                                    <Icon as={RiArrowRightUpLine} />
+                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="10">
+                                <HStack px="12" py="4">
+                                    <Text fontSize="md">Get a free quote now</Text>
+                                    <Icon as={RiArrowRightLine} />
                                 </HStack>
                             </Button>
                         </Link>

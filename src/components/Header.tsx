@@ -8,18 +8,18 @@ export function Header() {
 
     return (
         <>
-            <Stack bg="#002042" borderBottom="1px solid #6C92A3" fontFamily="Inter">
+            <Stack bg="#00132B" fontFamily="Inter">
                 <HStack maxW={1400} w="100%" margin="0 auto" justify="space-between" align="center" px="4">
                     <HStack py="4" spacing={12}>
-                        <Image src="/logo.png" w="40px" color="white" />
+                        <Image src="/logo.png" w="60px" color="white" />
 
                         <HStack
-                            spacing="8"
-                            color="gray.400"
+                            spacing="4"
+                            color="white"
                             display={{ base: "none", md: "flex" }}
                             fontStyle="normal"
-                            fontWeight="500"
-                            fontSize="15px"
+                            fontWeight="400"
+                            fontSize="14px"
                         >
                             <Link href="/#services">
                                 <Text cursor="pointer" _hover={{ color: "#0573E4" }}>Residential Painting</Text>
@@ -48,11 +48,11 @@ export function Header() {
                         </Link>
 
                         <Link href="/quote">
-                            <Button border="1px solid #0573E4" borderRadius="20" color="#fff" px="8" bg="transparent" _hover={{ bg: "#002042" }}>
+                            <Button border="1px solid #0573E4" borderRadius="10" color="#fff" px="8" bg="#0573E4" _hover={{ bg: "#002042" }}>
                                 <Text
                                     fontStyle="normal"
-                                    fontWeight="500"
-                                    fontSize="15px"
+                                    fontWeight="400"
+                                    fontSize="14px"
                                 >
                                     Contact now
                                 </Text>

@@ -1,6 +1,6 @@
 import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid, Tag, Avatar } from "@chakra-ui/react";
 import Link from "next/link";
-import { RiArrowRightUpLine, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
+import { RiArrowRightLine, RiArrowRightUpLine, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
 
 export function Reviews() {
@@ -12,7 +12,7 @@ export function Reviews() {
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="space-between" p="4">
 
                     <Stack pt="12" mt="6" spacing="2" align="center">
-                        <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#0573E4">Honest reviews</Text>
+                        <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#001024">Honest reviews</Text>
                         <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
                             Testimonials
                         </Text>
@@ -70,13 +70,13 @@ export function Reviews() {
 
                     </Grid>
 
-                    <Stack align="center">
-                        <Box pb="12">
+                    <Stack align="center" >
+                        <Box pb="8">
                             <Link href="/quote">
-                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="8" py="8">
-                                    <HStack px="4" py="12">
-                                        <Text fontSize="lg">I Want My House Painted</Text>
-                                        <Icon as={RiArrowRightUpLine} />
+                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "lg" }} borderRadius="10">
+                                    <HStack px="8" py="4">
+                                        <Text fontSize="md">I Want My House Painted</Text>
+                                        <Icon as={RiArrowRightLine} />
                                     </HStack>
                                 </Button>
                             </Link>

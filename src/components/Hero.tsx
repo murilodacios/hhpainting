@@ -1,7 +1,8 @@
 import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, SimpleGrid } from "@chakra-ui/react";
 import Link from "next/link";
-import { RiArrowRightLine, RiArrowRightUpLine, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
+import { Ri24HoursLine, RiArrowRightLine, RiArrowRightUpLine, RiChat1Line, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPaintBrushLine, RiPhoneFill, RiUser2Line, RiUserLine } from "react-icons/ri";
 import { useAuthenticate } from "../hooks/AuthContext";
+import { Header } from "./Header";
 
 
 export function Hero() {
@@ -11,87 +12,94 @@ export function Hero() {
 
         // bg="linear-gradient(45deg, #0573E4 -7.72%, #0F1B27 137.61%);"
         <>
-            <Stack bgImage="/back-hero.png" bgPos="center" bgSize="cover">
+            <Stack bg="#00132B">
 
-                <Grid maxW={1400} w="100%" margin="0 auto" fontFamily="Inter" fontStyle="normal" px="4" templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
+                <Stack maxW={1400} w="100%" margin="0 auto" justify="center" align="center" fontFamily="Inter" fontStyle="normal" px="4">
 
-                    <Stack py={{ base: "12", md: "20" }} align="center" justify="center">
-                        <Stack spacing="8" >
-
-                            <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We’ll Paint Your Ugly House!</Text>
-
-                            <Stack>
-                                <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">Transform Your Ugly House Into A Beautiful Home!</Text>
-                            </Stack>
-
-                            <Stack spacing="8" direction={{ base: "column", md: "row" }}>
-                                <Box>
-                                    <Link href="/quote">
-                                        <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="6">
-                                            <HStack px="12" py="6">
-                                                <Text fontSize="md">Get a free quote now</Text>
-                                                <Icon as={RiArrowRightLine} />
-                                            </HStack>
-                                        </Button>
-                                    </Link>
-                                </Box>
+                    <Box borderRadius="356px" right={{ base: "0", md: "0" }} top={{ base: "20", md: "100" }} bg="rgba(5, 115, 228, 0.60)" filter="blur(122.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
+                    <Box borderRadius="356px" left={{ base: "0", md: "-20" }} top={{ base: "500", md: "300" }} bg="rgba(5, 115, 228, 0.70)" filter="blur(122.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
 
 
-                            </Stack>
+                    <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} color="white">
 
-                            <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start">
+                        <Stack py={{ base: "12", md: "20" }} align="center" justify="center">
+                            <Stack spacing="6">
+
                                 <Stack>
-                                    <Image src="/stars.png" w="120px" />
-                                    <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
-                                        <HStack cursor="pointer">
-                                            <Text>We are 5 stars on Google</Text>
-                                            <Icon as={RiArrowRightUpLine} />
-                                        </HStack>
-                                    </Link>
+                                    <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">Professional Painters</Text>
                                 </Stack>
 
-                                <Image src="/google.png" w="120px" />
+                                <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We’ll Paint Your Ugly House!</Text>
+
+                                <Stack>
+                                    <Text fontSize={{ base: "xl", md: "2xl" }} color="#fff">Transform Your Ugly House Into A Beautiful Home!</Text>
+                                </Stack>
+
+                                <Stack spacing="8" direction={{ base: "column", md: "row" }}>
+                                    <Box>
+                                        <Link href="/quote">
+                                            <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="10">
+                                                <HStack px="12" py="4">
+                                                    <Text fontSize="md">Get a free quote now</Text>
+                                                    <Icon as={RiArrowRightLine} />
+                                                </HStack>
+                                            </Button>
+                                        </Link>
+                                    </Box>
+
+
+                                </Stack>
+
+                                <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start">
+                                    <Stack>
+                                        <Image src="/stars.png" w="120px" />
+                                        <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
+                                            <HStack cursor="pointer">
+                                                <Text>We are 5 stars on Google</Text>
+                                                <Icon as={RiArrowRightUpLine} />
+                                            </HStack>
+                                        </Link>
+                                    </Stack>
+
+                                    <Image src="/google.png" w="120px" />
+                                </Stack>
+
                             </Stack>
 
                         </Stack>
 
-                    </Stack>
-
-                    <Stack position="relative" justify="flex-end">
-                        <Stack borderRadius="10" left={{ base: "20", md: "150" }} top={{ base: "5", md: "10" }} bg="rgba(16, 20, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{ base: "70px", md: "90px" }} h={{ base: "70px", md: "90px" }} align="center" justify="center">
-                            <Icon as={RiPaintBrushFill} fontSize="32" color="white" />
+                        <Stack justify="center" align="center" p={{ base: 2, md: 12 }} pb="12">
+                            <Image src="/feliciano-e-pai.jpg" borderRadius={20} />
                         </Stack>
-
-                        <Stack borderRadius="10" left="0" top={{ base: "200", md: "300" }} bg="rgba(2, 10, 20, 0.10);" backdropFilter="blur(23.5px);" position="absolute" w={{ base: "70px", md: "90px" }} h={{ base: "70px", md: "90px" }} align="center" justify="center">
-                            <Icon as={RiHome2Fill} fontSize="32" color="white" />
-                        </Stack>
-
-                        <Image src="/hero-section-man.png" />
-                    </Stack>
-
-
-
-                </Grid>
+                    </Grid>
+                </Stack>
 
             </Stack>
 
 
-            <Stack>
-                <HStack maxW={1400} w="100%" margin="0 auto" px="4" py="8" gap="12" justify="space-between" align="flex-start" fontFamily="Inter">
-                    <Stack spacing="8" align="flex-start" direction={{ base: "column", md: "row" }}>
-                        <Text fontSize="md" fontWeight={500} color="#454545">
-                            We transform your home to make it truly<br></br> yours and more vibrant. Just the way you <br></br>have always dreamed.
-                        </Text>
+            <Stack bg="#001024">
+                <Stack maxW={1400} w="100%" margin="0 auto" px="4" py="8" gap="12" justify="space-between" align="flex-start" fontFamily="Inter">
 
-                    </Stack>
+                    <SimpleGrid columns={{ base: 1, md: 3 }} w="100%" gap="4">
 
-                    <Stack spacing="2" color="#454545">
-                        <Text fontSize="xl" fontWeight="bold">
-                            +30 satisfied<br></br>
-                            partners
-                        </Text>
-                    </Stack>
-                </HStack>
+                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
+                            <Icon as={RiPaintBrushLine} fontSize="50"/>
+                            <Text fontSize="lg">Personalized Painting</Text>
+                        </Stack>
+
+                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
+                            <Icon as={RiChat1Line} fontSize="50"/>
+                            <Text fontSize="lg">Continuous feedback</Text>
+                        </Stack>
+
+                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
+                            <Icon as={Ri24HoursLine} fontSize="50"/>
+                            <Text fontSize="lg">24 Hours support</Text>
+                        </Stack>
+
+                    </SimpleGrid>
+
+                </Stack>
             </Stack>
 
 

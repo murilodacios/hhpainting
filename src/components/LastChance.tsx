@@ -8,7 +8,7 @@ export function LastChance() {
 
     return (
         <>
-            <Stack bg="linear-gradient(45deg, #0573E4 -7.72%, #0F1B27 137.61%);" id="about" p="4" fontFamily="Inter" color="#fff">
+            <Stack bg="#001024" id="about" p="4" fontFamily="Inter" color="#fff">
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="space-between" pb="8">
 
                     <Stack py="12" mt="6" spacing="2" align="center">
@@ -19,12 +19,12 @@ export function LastChance() {
 
                         </Text>
                         <Stack align="center">
-                            <Box>
+                            <Box pb="8">
                                 <Link href="/quote">
-                                    <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "md" }} borderRadius="20" px="12" py="8">
-                                        <HStack px="4" py="12">
-                                            <Text fontSize="xl">I Want My House Painted</Text>
-                                            <Icon as={RiArrowRightUpLine} />
+                                    <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="10">
+                                        <HStack px="6" py="4">
+                                            <Text fontSize="md">Get a free quote now</Text>
+                                            <Icon as={RiArrowRightLine} />
                                         </HStack>
                                     </Button>
                                 </Link>
