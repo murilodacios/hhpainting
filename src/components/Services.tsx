@@ -26,16 +26,25 @@ export function Services() {
                     </Text>
                 </Stack>
 
+                <Stack py="12" mt="6" spacing="2" align="center">
+                    <Text fontWeight={500} fontSize={{ base: "xl", md: "2xl" }} lineHeight="1.4" textAlign="center">
+                        Exterior Painting
+                    </Text>
+                </Stack>
+
 
                 <Stack spacing="0">
                     <SimpleGrid columns={{ base: 1, md: 2 }} bg="gray.100">
 
-                        <Stack p="12" align="center" justify="center">
+                        <Stack p="12" align="flex-start" justify="center" spacing={6}>
                             <Text fontSize="2xl">
                                 This is the exterior of a house that needed an exterior paint job.
                             </Text>
+
+                            <Image display={{base: "none", md: "flex"}} src="/residential/seta-direita.svg" />
                         </Stack>
                         <Image src="/residential/before.png" />
+                       
 
                     </SimpleGrid>
 
@@ -43,15 +52,56 @@ export function Services() {
 
                         <Image src="/residential/after.png" />
 
-                        <Stack p="12" align="center" justify="center">
+                        <Stack p="12" align="flex-end" justify="center" spacing={6}>
                             <Text fontSize="2xl">
                                 And this is the exterior of the same house after the professionals from HH Painting completed the job.
                             </Text>
+
+                            <Image display={{base: "none", md: "flex"}} src="/residential/seta-esquerda.svg" />
                         </Stack>
 
 
                     </SimpleGrid>
                 </Stack>
+
+                <Stack py="12" mt="6" spacing="2" align="center">
+                    <Text fontWeight={500} fontSize={{ base: "xl", md: "2xl" }} lineHeight="1.4" textAlign="center">
+                        Interior Painting
+                    </Text>
+                </Stack>
+
+
+                <Stack spacing="0">
+                    <SimpleGrid columns={{ base: 1, md: 2 }} bg="gray.100">
+
+                        <Stack p="12" align="flex-start" justify="center" spacing={6}>
+                            <Text fontSize="2xl">
+                                This is the interior of a house that needed the work of HH Painting
+
+                            </Text>
+
+                            <Image display={{base: "none", md: "flex"}} src="/residential/seta-direita.svg" />
+                        </Stack>
+                        <Image src="/residential/before2.png" />
+
+                    </SimpleGrid>
+
+                    <SimpleGrid columns={{ base: 1, md: 2 }} bg="gray.100">
+
+                        <Image src="/residential/after2.png" />
+
+                        <Stack p="12" align="flex-end" justify="center" spacing={6}>
+                            <Text fontSize="2xl">
+                                And this is the interior of the same house after the professionals from HH Painting completed the job.
+                            </Text>
+
+                            <Image display={{base: "none", md: "flex"}} src="/residential/seta-esquerda.svg" />
+                        </Stack>
+
+
+                    </SimpleGrid>
+                </Stack>
+
 
                 <Stack align="center" pt="8">
                     <Box>

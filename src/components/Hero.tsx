@@ -69,7 +69,7 @@ export function Hero() {
                         </Stack>
 
                         <Stack justify="center" align="center" p={{ base: 2, md: 12 }} pb="12">
-                            <Image src="/feliciano-e-pai.jpg" borderRadius={20} />
+                            <Image src="/residential/feliciano.png" borderRadius={20} />
                         </Stack>
                     </Grid>
                 </Stack>
