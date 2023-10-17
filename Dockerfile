@@ -14,5 +14,7 @@ COPY . /usr/src/app
 
 RUN yarn build
 
+RUN npx prisma generate
+
 EXPOSE 3010
 CMD [ "yarn", "start" ]

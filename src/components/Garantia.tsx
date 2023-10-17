@@ -26,6 +26,10 @@ export function Garantia() {
                         We Work Free Guarantee
                     </Text>
 
+                    <Text textAlign="center">
+                        We are so committed to our customers satisfaction that if you are not satisfied with your beautiful home, we will work free of charge until it is achieved. Simple as that. No headaches, no stress, and no dissatisfaction.
+                    </Text>
+
                     <Text fontSize="xl" fontWeight={400} lineHeight="1.2" textAlign="center">Count on us for your beautiful home!</Text>
 
                     <Stack align="center">
