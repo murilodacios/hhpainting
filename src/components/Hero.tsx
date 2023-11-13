@@ -29,7 +29,7 @@ export function Hero() {
                                     <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">Professional Painters</Text>
                                 </Stack>
 
-                                <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We’ll Paint Your Beautiful House!</Text>
+                                <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1">We Will Paint Your Beautiful House!</Text>
 
                                 <Stack>
                                     <Text fontSize={{ base: "xl", md: "2xl" }} color="#fff">Be the most beautiful house in the neighborhood</Text>
