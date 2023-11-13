@@ -24,7 +24,7 @@ export function QuemSomos() {
                         </Text>
 
                         <Text fontSize="lg" fontWeight={400}>
-                            We are dedicated to bring the beauty your house deserves! With certified and legal professionals to transform your ugly house into a new home. Having painted over 100,000 ft^2 of ugliness into beauty, we don’t just care about your house – we care about you.
+                            We are dedicated to bring the beauty your house deserves! With certified and legal professionals to transform your house into a new home. Having painted over 100,000 ft^2 of ugliness into beauty, we don’t just care about your house – we care about you.
                             Get a certified free quote today so you can live in the beautiful home you deserve!
 
                         </Text>

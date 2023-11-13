@@ -14,7 +14,7 @@ export function LastChance() {
                     <Stack py="12" mt="6" spacing="2" align="center">
                         <Text fontWeight={500} fontSize={{ base: "2xl", md: "4xl" }} lineHeight="1.4" textAlign="center" pb="4">
                             Scrolled All The Way Down?<br></br>
-                            Transform Your Ugly House Into A Beautiful Home Now!
+                            Be the most beautiful house in the neighborhood now!
 
 
                         </Text>

@@ -125,7 +125,7 @@ export default function Quote() {
 
                         <Stack>
                             <Text fontSize={{ base: "5xl", md: "7xl" }} fontWeight={500} lineHeight="1.1" color="white">Get a free quote now!</Text>
-                            <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">Transform Your Ugly House Into A Beautiful Home!</Text>
+                            <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">We'll Paint Your Beautiful House!</Text>
                         </Stack>
 
                         <Stack bg="#fff" borderRadius="10px" p="4" as="form" onSubmit={handleSubmit(onSubmit)}>
