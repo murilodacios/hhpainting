@@ -110,7 +110,7 @@ export default function Quote() {
 
 
 
-            <Stack bgImage="/back-hero.png" bgPos="center" bgSize="cover">
+            <Stack bg="#00132B" bgPos="center" bgSize="cover">
 
 
 
