@@ -106,6 +106,19 @@ export default function Quote() {
 
             <Head>
                 <title>Painters of Gainesville - HH Painting</title>
+
+                <meta name="google-site-verification" content="Va6QO7z7MvjZJ9fSZ0pfpyXIoVUVmspKCzyaouH_Yr0" />
+                {/* <!-- Google tag (gtag.js) --> */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11240105576"></script>
+                <script dangerouslySetInnerHTML={{
+                    __html: `
+                    
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+
+                            gtag('config', 'AW-11240105576');
+                    `}} />
             </Head>
 
 
