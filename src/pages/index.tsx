@@ -22,11 +22,9 @@ export default function Home() {
   return (
     <>
 
-    <Head>
-      <title>Painters of Gainesville - HH Painting</title>
-    </Head>
-
-      <Header />
+      <Head>
+        <title>Painters of Gainesville - HH Painting</title>
+      </Head>
 
       <Hero />
 
@@ -45,7 +43,7 @@ export default function Home() {
       <Garantia />
 
       <LastChance />
-      
+
       <Contact />
 
     </>
