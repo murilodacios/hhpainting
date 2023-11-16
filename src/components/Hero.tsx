@@ -12,7 +12,7 @@ export function Hero() {
 
         // bg="linear-gradient(45deg, #0573E4 -7.72%, #0F1B27 137.61%);"
         <>
-            <Stack bg="#00132B">
+            <Stack bgImage="/hero.png"  >
 
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="center" align="center" fontFamily="Inter" fontStyle="normal" px="4">
 

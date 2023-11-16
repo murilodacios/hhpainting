@@ -13,8 +13,8 @@ export function Problem() {
 
                     <Stack py="4" mt="6" spacing="2" align="center">
                         <Text fontWeight={500} fontSize={{ base: "2xl", md: "4xl" }} lineHeight="1.4" textAlign="center" pb="6">
-                            No More Peeling Paints Or Ugly Colors.<br></br>
-                            Your home will be desired and envied in your neighborhood
+                            No More Peeling Paints Or Old Colors.<br></br>
+                            Your home will be desired and praised in your neighborhood
 
                         </Text>
                         <Box>
