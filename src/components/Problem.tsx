@@ -1,8 +1,6 @@
-import { Button, HStack, Stack, Text, Box, Icon, Image, Grid, Input, Tag } from "@chakra-ui/react";
+import { Button, HStack, Stack, Text, Box, Icon } from "@chakra-ui/react";
 import Link from "next/link";
-import { RiArrowRightLine, RiAwardFill, RiAwardLine, RiFacebookFill, RiHeart2Fill, RiHeart2Line, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiPhoneLine, RiServiceFill, RiServiceLine, RiTimeFill, RiTimeLine, RiUser2Line, RiUser5Fill, RiUser5Line, RiUserLine } from "react-icons/ri";
-import { useAuthenticate } from "../hooks/AuthContext";
-
+import { RiArrowRightLine } from "react-icons/ri";
 
 export function Problem() {
 
