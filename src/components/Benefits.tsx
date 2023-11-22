@@ -71,7 +71,7 @@ export function Benefits() {
                             </Text>
                             <Text lineHeight="1.6rem">
                                 Start the new year with your home renewed, painted, and with a fresh atmosphere.
-                                Let's transform your spaces, creating a color palette that reflects your personality and style.
+                                Lets transform your spaces, creating a color palette that reflects your personality and style.
                                 With our dedicated and professional team, we ensure not only vibrant walls but also a complete
                                 renovation, reshaping the environment for a new year filled with positive energy.
                             </Text>
