@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-
+                    <title>Professional Painters - HH Painting</title>
                     <meta name="google-site-verification" content="Va6QO7z7MvjZJ9fSZ0pfpyXIoVUVmspKCzyaouH_Yr0" />
                     {/* <!-- Google tag (gtag.js) --> */}
                     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11240105576"></script>
