@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { RiBrush2Fill, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiWhatsappFill } from "react-icons/ri";
 import { About } from "../components/About";
+import { Benefits } from "../components/Benefits";
 import { CardServices } from "../components/CardServices";
 import { Contact } from "../components/Contact";
 import { Garantia } from "../components/Garantia";
@@ -31,6 +32,8 @@ export default function Home() {
       <Hero />
 
       <Problem />
+
+      <Benefits />
 
       <Services />
 

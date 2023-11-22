@@ -1,4 +1,4 @@
-import { Button, HStack, Stack, Text, Box, Icon, Image, SimpleGrid } from "@chakra-ui/react";
+import { Button, HStack, Stack, Text, Box, Icon, Image, SimpleGrid, Avatar } from "@chakra-ui/react";
 import Link from "next/link";
 import { Ri24HoursLine, RiArrowRightLine, RiArrowRightUpLine, RiChat1Line, RiPaintBrushLine } from "react-icons/ri";
 
@@ -10,12 +10,23 @@ export function Hero() {
 
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="center" align="center" fontFamily="Inter" fontStyle="normal" px="4">
 
-                    {/* <Box borderRadius="356px" right={{ base: "0", md: "0" }} top={{ base: "20", md: "100" }} bg="rgba(5, 115, 228, 0.60)" filter="blur(160.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
-                    <Box borderRadius="356px" left={{ base: "0", md: "-20" }} top={{ base: "500", md: "300" }} bg="rgba(5, 115, 228, 0.70)" filter="blur(160.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} /> */}
+                    <Box display={{base: "none", md: "inline-block"}} borderRadius="6" right={{ base: "0", md: "10" }} top={{ base: "200", md: "100" }} bg="rgba(255, 255, 255, 1)" position="absolute" w="400px" p="2">
+                        <HStack>
+                            <Avatar src='https://assets.propmark.com.br/uploads/2023/03/Viviane-Pepe---Diretora-de-Comunica--o-da-Avon-Brasil--2-.jpg' size="sm"/>
+                            <Text fontSize="sm">The house looks amazing. I love it! So much attention to detail</Text>
+                        </HStack>
+                    </Box>
+                    <Box display={{base: "none", md: "inline-block"}} borderRadius="6" left={{ base: "0", md: "10" }} top={{ base: "900", md: "370" }} bg="#001C3F" color="white" position="absolute" w="400px" p="2">
+                        <HStack>
+                            <Avatar src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJD8PDMwQdWoOyixztYSO2heQSLRjxEq5XFg&usqp=CAU' size="sm"/>
+                            <Text fontSize="sm">These guys were the epitome of professionalism and quality work.</Text>
+                        </HStack>
+                    </Box>
 
-                    <Stack py={{ base: "8", md: "8" }} color="white" textAlign="center">
 
-                        <Stack p={{ base: "2", md: "6" }} maxW="900px" margin="0 auto">
+                    <Stack py={{ base: "8", md: "12" }} color="white" textAlign="center">
+
+                        <Stack p={{ base: "2", md: "12" }} maxW="960px" margin="0 auto">
                             <Text fontSize={{ base: "4xl", md: "6xl" }} fontWeight={500} lineHeight="1.1">Finally, a whole team to make <Text as="span" color="#2992FF">your home more beautiful</Text></Text>
 
                             <Stack pt="2" px={{ base: "4", md: "12" }} color="#fff">
@@ -98,34 +109,15 @@ export function Hero() {
             </Stack>
 
 
-            <Stack bg="#000A17">
+            <Stack bg="#001023">
+
                 <Stack maxW={1400} w="100%" margin="0 auto" px="4" py="8" gap="12" justify="space-between" align="flex-start" fontFamily="Inter">
 
                     <SimpleGrid columns={{ base: 1, md: 3 }} maxW="1000px" margin="0 auto" gap="4" >
 
-                        <Image src="/hero/1.png" />
-                        <Image src="/hero/2.png" />
-                        <Image src="/hero/3.png" />
-
-                    </SimpleGrid>
-
-
-                    <SimpleGrid columns={{ base: 1, md: 3 }} w="100%" gap="4">
-
-                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
-                            <Icon as={RiPaintBrushLine} fontSize="50" />
-                            <Text fontSize="lg">Personalized Painting</Text>
-                        </Stack>
-
-                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
-                            <Icon as={RiChat1Line} fontSize="50" />
-                            <Text fontSize="lg">Continuous feedback</Text>
-                        </Stack>
-
-                        <Stack border="1px solid #0573E4" backdropFilter="blur(23.5px)" background="rgba(5, 115, 228, 0.14)" borderRadius="10px" color="white" p="8" align="center">
-                            <Icon as={Ri24HoursLine} fontSize="50" />
-                            <Text fontSize="lg">24 Hours support</Text>
-                        </Stack>
+                        <Image src="/hero/1.png" borderRadius="6" />
+                        <Image src="/hero/2.png" borderRadius="6" />
+                        <Image src="/hero/3.png" borderRadius="6" />
 
                     </SimpleGrid>
 

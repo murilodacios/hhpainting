@@ -19,14 +19,14 @@ export function Services() {
         <>
             <Stack maxW={1400} w="100%" margin="0 auto" py="8" id="services" p="4" fontFamily="Inter">
 
-                <Stack py="12" mt="6" spacing="2" align="center">
+                <Stack py="4" mt="6" spacing="2" align="center">
                     <Text fontSize="lg" fontWeight={600} lineHeight="1.2" color="#001024">Residential Painting</Text>
                     <Text fontWeight={500} fontSize={{ base: "3xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
                         What Do We Paint?
                     </Text>
                 </Stack>
 
-                <Stack py="12" mt="6" spacing="2" align="center">
+                <Stack py="4" mt="6" spacing="2" align="center">
                     <Text fontWeight={500} fontSize={{ base: "xl", md: "2xl" }} lineHeight="1.4" textAlign="center">
                         Exterior Painting
                     </Text>
