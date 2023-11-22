@@ -50,7 +50,7 @@ export function Benefits() {
                     </SimpleGrid>
 
                     <Stack position="relative">
-                        <Image src="/ano-novo-1.png" borderRadius="10" />
+                        <Image src="/ano-novo-1.png" borderRadius="10" alt="new year"/>
 
                         <Stack
                             position={{base: "relative", md: "absolute"}}
