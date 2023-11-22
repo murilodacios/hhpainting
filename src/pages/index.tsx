@@ -23,9 +23,9 @@ export default function Home() {
     <>
 
       <Head>
-        <title>Painters of Gainesville - HH Painting</title>
+        <title>Professional Painters - HH Painting, FL</title>
       </Head>
-      
+
       <Header />
 
       <Hero />

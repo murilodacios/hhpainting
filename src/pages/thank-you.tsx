@@ -11,7 +11,7 @@ export default function ThankYou() {
         <>
 
             <Head>
-                <title>Painters of Gainesville - HH Painting</title>
+                <title>Professional Painters - HH Painting</title>
 
                 <meta name="google-site-verification" content="Va6QO7z7MvjZJ9fSZ0pfpyXIoVUVmspKCzyaouH_Yr0" />
                 {/* <!-- Google tag (gtag.js) --> */}

@@ -1,23 +1,10 @@
-import { Box, Button, HStack, Icon, Image, Input, SimpleGrid, Stack, Text, Tabs, TabList, TabPanels, Tab, TabPanel, Card, CardBody, Heading, Divider, CardFooter, ButtonGroup, Tag, Grid, FormControl, FormLabel, Checkbox, RadioGroup, Radio, useToast } from "@chakra-ui/react";
+import { Button, HStack, Icon, Image, Input, Stack, Text, FormControl, FormLabel, RadioGroup, Radio, useToast } from "@chakra-ui/react";
 import Head from "next/head";
 import Link from "next/link";
-import { Router, useRouter } from "next/router";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { RiArrowRightLine, RiArrowRightUpLine, RiBrush2Fill, RiChatQuoteFill, RiFacebookFill, RiHome2Fill, RiInstagramFill, RiPaintBrushFill, RiPhoneFill, RiWhatsappFill } from "react-icons/ri";
-import { About } from "../components/About";
-import { CardServices } from "../components/CardServices";
-import { Contact } from "../components/Contact";
-import { Garantia } from "../components/Garantia";
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { HowWorks } from "../components/HowWorks";
-import { LastChance } from "../components/LastChance";
-import { Problem } from "../components/Problem";
-import { QuemSomos } from "../components/QuemSomos";
-import { Reviews } from "../components/Reviews";
-import { Reviews2 } from "../components/Reviews2";
-import { Services } from "../components/Services";
+import { RiArrowRightUpLine } from "react-icons/ri";
 import { api } from "../services/api";
 
 type InputData = {
@@ -105,7 +92,7 @@ export default function Quote() {
         <>
 
             <Head>
-                <title>Painters of Gainesville - HH Painting</title>
+                <title>Professional Painters - HH Painting</title>
 
                 <meta name="google-site-verification" content="Va6QO7z7MvjZJ9fSZ0pfpyXIoVUVmspKCzyaouH_Yr0" />
                 {/* <!-- Google tag (gtag.js) --> */}
