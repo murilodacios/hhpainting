@@ -8,8 +8,8 @@ export function Header() {
 
     return (
         <>
-            <Stack bg="transparent" fontFamily="Inter">
-                <HStack maxW={1400} w="100%" margin="0 auto" justify="space-between" align="center" px="4">
+            <Stack bg="#00132B" fontFamily="Inter" >
+                <HStack maxW={1400} w="100%" margin="0 auto" justify="space-between" align="center" px="4" borderBottom="1px solid #001C3F;">
                     <HStack py="4" spacing={12}>
                         <Image src="/logo.png" w="60px" color="white" />
 

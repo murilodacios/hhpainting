@@ -12,44 +12,44 @@ export function Hero() {
 
         // bg="linear-gradient(45deg, #0573E4 -7.72%, #0F1B27 137.61%);"
         <>
-            <Stack bgImage="/hero.png"  bgSize="cover">
-
-                <Header />
+            <Stack bg="#00132B" bgSize="cover">
 
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="center" align="center" fontFamily="Inter" fontStyle="normal" px="4">
 
-                    {/* <Box borderRadius="356px" right={{ base: "0", md: "0" }} top={{ base: "20", md: "100" }} bg="rgba(5, 115, 228, 0.60)" filter="blur(122.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
-                    <Box borderRadius="356px" left={{ base: "0", md: "-20" }} top={{ base: "500", md: "300" }} bg="rgba(5, 115, 228, 0.70)" filter="blur(122.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} /> */}
+                    <Box borderRadius="356px" right={{ base: "0", md: "0" }} top={{ base: "20", md: "100" }} bg="rgba(5, 115, 228, 0.60)" filter="blur(160.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
+                    <Box borderRadius="356px" left={{ base: "0", md: "-20" }} top={{ base: "500", md: "300" }} bg="rgba(5, 115, 228, 0.70)" filter="blur(160.5px);" position="absolute" w={{ base: "200px", md: "300px" }} h={{ base: "200px", md: "300px" }} />
 
-                    <Stack py={{ base: "12", md: "20" }} align="center" justify="center" color="white" textAlign="center">
+                    <Stack py={{ base: "8", md: "8" }} color="white" textAlign="center">
 
+                        <Stack p={{ base: "2", md: "6" }} maxW="900px" margin="0 auto">
+                            <Text fontSize={{ base: "4xl", md: "6xl" }} fontWeight={500} lineHeight="1.1">Finally, a whole team to make <Text as="span" color="#2992FF">your home more beautiful</Text></Text>
 
-                        <Stack p={{ base: "2", md: "6" }} maxW="1300px">
-                            <Stack>
-                                <Text fontSize={{ base: "xl", md: "2xl" }} color="white">Professional Painters</Text>
-                            </Stack>
-
-                            <Text fontSize={{ base: "5xl", md: "6xl" }} fontWeight={500} lineHeight="1.1">We Will Paint Your Beautiful House!</Text>
-
-                            <Stack>
-                                <Text fontSize={{ base: "xl", md: "3xl" }} color="#fff">Be the most beautiful house in the neighborhood</Text>
+                            <Stack pt="2" px={{ base: "4", md: "12" }} color="#ccc">
+                                <Text fontSize={{ base: "md", md: "xl" }} lineHeight="1.8" textAlign="center">We will paint your beautiful home to make it the most stunning in the neighborhood.</Text>
                             </Stack>
                         </Stack>
 
-                        <Stack spacing="8" direction={{ base: "column", md: "row" }}>
-                            <Box>
-                                <Link href="/quote">
-                                    <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "2lg" }} borderRadius="10">
-                                        <HStack px="12" py="6">
-                                            <Text fontSize={{base: "md", md: "lg"}}>Get a free quote now</Text>
-                                            <Icon as={RiArrowRightLine} />
-                                        </HStack>
-                                    </Button>
-                                </Link>
-                            </Box>
+                        <SimpleGrid gap="2" columns={{ base: 1, md: 2 }}>
 
+                            <Link href="/quote">
+                                <Button variant="solid" bg="#0573E4" color="white" size={{ base: "md", md: "lg" }} borderRadius="10">
+                                    <HStack px="8" py="4">
+                                        <Text fontSize={{ base: "md", md: "md" }}>Get a free quote now</Text>
+                                        <Icon as={RiArrowRightLine} />
+                                    </HStack>
+                                </Button>
+                            </Link>
 
-                        </Stack>
+                            <Link href="/#services">
+                                <Button variant="solid" bg="#fff" color="#00132B" size={{ base: "md", md: "lg" }} borderRadius="10">
+                                    <HStack px="8" py="2">
+                                        <Text fontSize={{ base: "md", md: "md" }}>See our work</Text>
+                                        <Icon as={RiArrowRightLine} />
+                                    </HStack>
+                                </Button>
+                            </Link>
+
+                        </SimpleGrid>
 
                         <Stack direction={{ base: "column-reverse", md: "column" }} align="center" pt="8">
                             <Image src="/stars.png" w="120px" />
@@ -78,6 +78,15 @@ export function Hero() {
 
             <Stack bg="#000A17">
                 <Stack maxW={1400} w="100%" margin="0 auto" px="4" py="8" gap="12" justify="space-between" align="flex-start" fontFamily="Inter">
+
+                    <SimpleGrid columns={{ base: 1, md: 3 }} maxW="1000px" margin="0 auto" gap="4" >
+
+                        <Image src="/hero/1.png" />
+                        <Image src="/hero/2.png" />
+                        <Image src="/hero/3.png" />
+
+                    </SimpleGrid>
+
 
                     <SimpleGrid columns={{ base: 1, md: 3 }} w="100%" gap="4">
 

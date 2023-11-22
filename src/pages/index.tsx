@@ -25,6 +25,8 @@ export default function Home() {
       <Head>
         <title>Painters of Gainesville - HH Painting</title>
       </Head>
+      
+      <Header />
 
       <Hero />
 
