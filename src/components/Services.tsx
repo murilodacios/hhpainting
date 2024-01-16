@@ -26,8 +26,8 @@ export function Services() {
                     </Text>
                 </Stack>
 
-                <Stack py="4" mt="6" spacing="2" align="center">
-                    <Text fontWeight={500} fontSize={{ base: "xl", md: "2xl" }} lineHeight="1.4" textAlign="center">
+                <Stack py="6" mt="6" spacing="2" align="center">
+                        <Text fontWeight={500} fontSize={{ base: "xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
                         Exterior Painting
                     </Text>
                 </Stack>
@@ -64,8 +64,8 @@ export function Services() {
                     </SimpleGrid>
                 </Stack>
 
-                <Stack py="12" mt="6" spacing="2" align="center">
-                    <Text fontWeight={500} fontSize={{ base: "xl", md: "2xl" }} lineHeight="1.4" textAlign="center">
+                <Stack py="6" mt="6" spacing="2" align="center">
+                        <Text fontWeight={500} fontSize={{ base: "xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
                         Interior Painting
                     </Text>
                 </Stack>

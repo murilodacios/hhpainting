@@ -9,51 +9,54 @@ export function Benefits() {
             <Stack bg="#fff" id="about" p="4" fontFamily="Inter" color="#000">
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="space-between" pb="8" spacing="6">
 
+
+                    <Stack py="6" mt="6" spacing="2" align="center">
+                        <Text fontWeight={500} fontSize={{ base: "xl", md: "4xl" }} lineHeight="1.4" textAlign="center">
+                            Benefits
+                        </Text>
+                    </Stack>
+
                     <SimpleGrid columns={{ base: 1, md: 3 }} margin="0 auto" gap="4" >
 
-                        <Stack bg="#F1F7FF" pl="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" justify="space-between">
+                        <Stack bg="#F1F7FF" p="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" align="center">
                             <Text fontSize="xl" fontWeight="500">
                                 Durability and Protection
                             </Text>
-                            <Stack p="8" bg="white" borderTopLeftRadius="6" shadow="sm">
-                                <Text>Professional residential painting provides a long-lasting protective layer against elements such as
-                                    sun, rain, and humidity. This not only preserves the aesthetic beauty of the home but also shields
-                                    surfaces, helping to prevent weather-related damage.
-                                </Text>
-                            </Stack>
+
+                            <Text>Professional residential painting provides a long-lasting protective layer against elements such as
+                                sun, rain, and humidity.
+                            </Text>
+
                         </Stack>
 
-                        <Stack bg="#F1F7FF" pl="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" justify="space-between">
+                        <Stack bg="#F1F7FF" p="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" align="center">
                             <Text fontSize="xl" fontWeight="500">
                                 Superior Aesthetic Quality
                             </Text>
-                            <Stack p="8" bg="white" borderTopLeftRadius="6" shadow="sm">
-                                <Text>Painting professionals possess the skills and experience to ensure a uniform and high-quality application.
-                                    This results in superior aesthetics, with vibrant colors and a refined finish, enhancing the visual appeal of
-                                    the residence.
-                                </Text>
-                            </Stack>
+
+                            <Text>Painting professionals possess the skills and experience to ensure a uniform and high-quality application.
+
+                            </Text>
+
                         </Stack>
 
-                        <Stack bg="#F1F7FF" pl="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" justify="space-between">
+                        <Stack bg="#F1F7FF" p="8" pt="8" borderRadius="6" spacing="6" border="1px solid #F1F7FF" shadow="sm" align="center">
                             <Text fontSize="xl" fontWeight="500">
                                 Long-Term Cost Savings
                             </Text>
-                            <Stack p="8" bg="white" borderTopLeftRadius="6" shadow="sm">
-                                <Text>Despite the initial investment, professional painting can represent long-term savings. Quality materials and
-                                    proper techniques extend the life of the paint, reducing the need for frequent touch-ups.
-                                    Potentially contributing to an increase in its market worth.
-                                </Text>
-                            </Stack>
+
+                            <Text>Despite the initial investment, professional painting can represent long-term savings.
+                            </Text>
+
                         </Stack>
 
                     </SimpleGrid>
 
                     <Stack position="relative">
-                        <Image src="/ano-novo-1.png" borderRadius="10" alt="new year"/>
+                        <Image src="/ano-novo-1.png" borderRadius="10" alt="new year" />
 
                         <Stack
-                            position={{base: "relative", md: "absolute"}}
+                            position={{ base: "relative", md: "absolute" }}
                             bg="#F1F7FF"
                             px="8"
                             py="8"
@@ -62,18 +65,16 @@ export function Benefits() {
                             border="1px solid #F1F7FF"
                             shadow="sm"
                             justify="space-between"
-                            width={{base: "100%", md: "600px"}}
-                            left={{base: "0px", md: "30px"}}
-                            top={{base: "0px", md: "30px"}}
+                            width={{ base: "100%", md: "600px" }}
+                            left={{ base: "0px", md: "30px" }}
+                            top={{ base: "0px", md: "30px" }}
                         >
-                            <Text fontSize={{base: "2xl", md: "4xl"}} fontWeight="500" lineHeight="2.4rem">
+                            <Text fontSize={{ base: "2xl", md: "4xl" }} fontWeight="500" lineHeight="2.4rem">
                                 The new year cannot be the same
                             </Text>
                             <Text lineHeight="1.6rem">
                                 Start the new year with your home renewed, painted, and with a fresh atmosphere.
-                                Lets transform your spaces, creating a color palette that reflects your personality and style.
-                                With our dedicated and professional team, we ensure not only vibrant walls but also a complete
-                                renovation, reshaping the environment for a new year filled with positive energy.
+                               
                             </Text>
 
                             <Link href="/quote">
@@ -82,8 +83,8 @@ export function Benefits() {
                                     px="8"
                                     py="3"
                                     borderRadius="6"
-                                    bg="white"
-                                    color="#00132B"
+                                  bg="blue.500"
+                                    color="white"
                                     align="center"
                                     justify="center"
                                     cursor="pointer"
@@ -94,7 +95,7 @@ export function Benefits() {
                                         color: "#00132B"
                                     }}
                                 >
-                                    <Text fontSize={{ base: "md", md: "md" }}>Get a free quote now</Text>
+                                    <Text fontSize={{ base: "md", md: "lg" }}>Get a free quote now</Text>
                                     <Icon as={RiArrowRightLine} />
                                 </HStack>
 

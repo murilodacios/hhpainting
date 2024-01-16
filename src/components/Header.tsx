@@ -40,14 +40,7 @@ export function Header() {
                     </HStack>
 
                     <HStack spacing="4" color="#fff" display={{base: "none", md: "flex"}}>
-                        <Link href="https://www.instagram.com/hhpaintingfl/">
-                            <Icon cursor="pointer" as={RiInstagramFill} />
-                        </Link>
-
-                        <Link href="https://www.facebook.com/profile.php?id=100093172021168">
-                            <Icon cursor="pointer" as={RiFacebookFill} />
-                        </Link>
-
+                
                         <Link href="/quote">
 
                             <HStack
@@ -65,7 +58,7 @@ export function Header() {
                                     color: "#00132B"
                                 }}
                             >
-                                <Text fontSize={{ base: "sm", md: "sm" }}>Free quote</Text>
+                                <Text fontSize={{ base: "sm", md: "sm" }}>Get a Free quote</Text>
 
                             </HStack>
 

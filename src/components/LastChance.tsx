@@ -31,18 +31,17 @@ export function LastChance() {
                             </Box>
                         </Stack>
 
-                        <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start" py="8">
+                        <Stack direction={{ base: "column-reverse", md: "row" }} align="flex-start" py="4">
                             <Stack>
-                                <Image src="/stars.png" w="120px" />
+
                                 <Link href="https://www.google.com/maps/place/HH+Painting/@29.6280106,-82.3781613,17z/data=!3m1!4b1!4m6!3m5!1s0x88e8a33a5f84d55d:0x51552d8e3fcac784!8m2!3d29.6280106!4d-82.3781613!16s%2Fg%2F11v15t8fp_?entry=ttu">
-                                    <HStack cursor="pointer">
-                                        <Text>We are 5 stars on Google</Text>
-                                        <Icon as={RiArrowRightUpLine} />
-                                    </HStack>
+                                    <Stack cursor="pointer">
+                                        <Image src="/stars.png" w="120px" />
+                                        <Image src="/google.png" w="120px" />
+                                    </Stack>
                                 </Link>
                             </Stack>
 
-                            <Image src="/google.png" w="120px" />
                         </Stack>
                     </Stack>
 

@@ -27,7 +27,7 @@ export default function ThankYou() {
                     `}} />
             </Head>
 
-            <Stack bgImage="/back-hero.png" bgPos="center" bgSize="cover">
+            <Stack bg="#00132B" bgPos="center" bgSize="cover">
                 <Stack py={{ base: "12", md: "20" }} align="center" justify="center" p="4" h="100vh">
 
                     <Stack spacing="8" align="center">
@@ -39,9 +39,9 @@ export default function ThankYou() {
                             <Text fontSize={{ base: "xl", md: "2xl" }} color="#88C3FF">We will get back to you as soon as possible!</Text>
                         </Stack>
 
-                        <Link href="/">
-                            <Button colorScheme="blue">
-                                Go back home!
+                        <Link href="https://www.instagram.com/hhpaintingfl/">
+                            <Button colorScheme="blue" size="lg">
+                                See our work
                             </Button>
                         </Link>
 
