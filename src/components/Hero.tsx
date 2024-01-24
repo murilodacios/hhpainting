@@ -6,7 +6,7 @@ export function Hero() {
 
     return (
         <>
-            <Stack bg="#00132B" bgSize="cover">
+            <Stack bgImage="/hero.png" bgSize="cover">
 
                 <Stack maxW={1400} w="100%" margin="0 auto" justify="center" align="center" fontFamily="Inter" fontStyle="normal" px="4">
 
